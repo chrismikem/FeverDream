@@ -1,0 +1,1278 @@
+{
+	"name": "Event sheet 3",
+	"events": [
+		{
+			"eventType": "variable",
+			"name": "bg_speed3",
+			"type": "number",
+			"initialValue": "250",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 803917275596856
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Character3",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-key-pressed",
+							"objectClass": "Keyboard",
+							"sid": 750538050389772,
+							"parameters": {
+								"key": 39
+							}
+						},
+						{
+							"id": "on-key-pressed",
+							"objectClass": "Keyboard",
+							"sid": 294338691111041,
+							"parameters": {
+								"key": 37
+							}
+						}
+					],
+					"actions": [],
+					"sid": 314612509383739,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "every-x-seconds",
+									"objectClass": "System",
+									"sid": 696863067401849,
+									"parameters": {
+										"interval-seconds": "0.2"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "spawn-another-object",
+									"objectClass": "Sprite",
+									"sid": 915585926511608,
+									"parameters": {
+										"object": "Sprite2",
+										"layer": "0",
+										"image-point": "0",
+										"create-hierarchy": false
+									}
+								},
+								{
+									"id": "set-angle-of-motion",
+									"objectClass": "Sprite2",
+									"sid": 672057640521383,
+									"behaviorType": "Bullet",
+									"parameters": {
+										"angle": "Sprite.shooting_dir"
+									}
+								}
+							],
+							"sid": 347562546860303
+						}
+					],
+					"isOrBlock": true
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "key-is-down",
+							"objectClass": "Keyboard",
+							"sid": 401141707313084,
+							"parameters": {
+								"key": 87
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "simulate-control",
+							"objectClass": "Sprite",
+							"sid": 284378679246649,
+							"behaviorType": "8Direction",
+							"parameters": {
+								"control": "up"
+							}
+						}
+					],
+					"sid": 546775825179670
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "key-is-down",
+							"objectClass": "Keyboard",
+							"sid": 240602747453335,
+							"parameters": {
+								"key": 65
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "simulate-control",
+							"objectClass": "Sprite",
+							"sid": 681476891501165,
+							"behaviorType": "8Direction",
+							"parameters": {
+								"control": "left"
+							}
+						}
+					],
+					"sid": 144929325150685
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "key-is-down",
+							"objectClass": "Keyboard",
+							"sid": 709016478781914,
+							"parameters": {
+								"key": 83
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "simulate-control",
+							"objectClass": "Sprite",
+							"sid": 884256390852467,
+							"behaviorType": "8Direction",
+							"parameters": {
+								"control": "down"
+							}
+						}
+					],
+					"sid": 206353939564056
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "key-is-down",
+							"objectClass": "Keyboard",
+							"sid": 948255574802803,
+							"parameters": {
+								"key": 68
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "simulate-control",
+							"objectClass": "Sprite",
+							"sid": 790909150723910,
+							"behaviorType": "8Direction",
+							"parameters": {
+								"control": "right"
+							}
+						}
+					],
+					"sid": 592464972289577
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "key-is-down",
+							"objectClass": "Keyboard",
+							"sid": 721049664481432,
+							"parameters": {
+								"key": 37
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Sprite",
+							"sid": 544861520631446,
+							"parameters": {
+								"instance-variable": "shooting_dir",
+								"value": "180"
+							}
+						},
+						{
+							"id": "set-mirrored",
+							"objectClass": "Sprite",
+							"sid": 734040395068467,
+							"parameters": {
+								"state": "mirrored"
+							}
+						}
+					],
+					"sid": 951503536406283
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "key-is-down",
+							"objectClass": "Keyboard",
+							"sid": 716544557363205,
+							"parameters": {
+								"key": 39
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Sprite",
+							"sid": 617072554314224,
+							"parameters": {
+								"instance-variable": "shooting_dir",
+								"value": "0"
+							}
+						},
+						{
+							"id": "set-mirrored",
+							"objectClass": "Sprite",
+							"sid": 717630713638793,
+							"parameters": {
+								"state": "not-mirrored"
+							}
+						}
+					],
+					"sid": 833289523538563
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-key-pressed",
+							"objectClass": "Keyboard",
+							"sid": 809702103021826,
+							"parameters": {
+								"key": 38
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-max-speed",
+							"objectClass": "Sprite",
+							"sid": 315390072492016,
+							"behaviorType": "8Direction",
+							"parameters": {
+								"max-speed": "0"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "Sprite",
+							"sid": 927573237116543,
+							"parameters": {
+								"animation": "\"Animation 2\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 690979613341909,
+							"parameters": {
+								"audio-file": "445999__breviceps__fart-2",
+								"loop": "not-looping",
+								"volume": "-15",
+								"tag-optional": "\"\""
+							}
+						},
+						{
+							"id": "set-enabled",
+							"objectClass": "Sprite",
+							"sid": 606151997865130,
+							"behaviorType": "Bullet",
+							"parameters": {
+								"state": "enabled"
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 217396466763477,
+							"parameters": {
+								"seconds": "0.7"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "Sprite",
+							"sid": 375048810774837,
+							"parameters": {
+								"animation": "\"Animation 1\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "set-enabled",
+							"objectClass": "Sprite",
+							"sid": 817483171943281,
+							"behaviorType": "Bullet",
+							"parameters": {
+								"state": "disabled"
+							}
+						},
+						{
+							"id": "set-max-speed",
+							"objectClass": "Sprite",
+							"sid": 669005782271202,
+							"behaviorType": "8Direction",
+							"parameters": {
+								"max-speed": "400"
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 736842082313451,
+							"parameters": {
+								"seconds": "5"
+							}
+						}
+					],
+					"sid": 690355084876218,
+					"isOrBlock": true
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-mirrored",
+							"objectClass": "Sprite",
+							"sid": 805601769534897,
+							"isInverted": true
+						}
+					],
+					"actions": [
+						{
+							"id": "set-angle-of-motion",
+							"objectClass": "Sprite",
+							"sid": 368620129426726,
+							"behaviorType": "Bullet",
+							"parameters": {
+								"angle": "0"
+							}
+						}
+					],
+					"sid": 934749625967099
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-mirrored",
+							"objectClass": "Sprite",
+							"sid": 779015426472493
+						}
+					],
+					"actions": [
+						{
+							"id": "set-angle-of-motion",
+							"objectClass": "Sprite",
+							"sid": 751938450586838,
+							"behaviorType": "Bullet",
+							"parameters": {
+								"angle": "180"
+							}
+						}
+					],
+					"sid": 656352707275464
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Sprite",
+							"sid": 833737644273911,
+							"parameters": {
+								"object": "Sprite3"
+							}
+						},
+						{
+							"id": "is-animation-playing",
+							"objectClass": "Sprite",
+							"sid": 885171942405099,
+							"parameters": {
+								"animation": "\"Animation 1\""
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 782598203285442,
+							"parameters": {
+								"audio-file": "Hit_hurt 18",
+								"loop": "not-looping",
+								"volume": "-20",
+								"tag-optional": "\"\""
+							}
+						},
+						{
+							"id": "subtract-from-instvar",
+							"objectClass": "Sprite",
+							"sid": 443905151489531,
+							"parameters": {
+								"instance-variable": "Health",
+								"value": "1"
+							}
+						}
+					],
+					"sid": 205799871076206
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Sprite",
+							"sid": 874614329276859,
+							"parameters": {
+								"instance-variable": "Health",
+								"comparison": 3,
+								"value": "0"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "go-to-layout-by-name",
+							"objectClass": "System",
+							"sid": 576535949338278,
+							"parameters": {
+								"layout": "\"GO\""
+							}
+						}
+					],
+					"sid": 479028723039074
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-destroyed",
+							"objectClass": "Sprite3",
+							"sid": 152836399732392
+						}
+					],
+					"actions": [
+						{
+							"id": "add-to-instvar",
+							"objectClass": "Sprite",
+							"sid": 553987737698323,
+							"parameters": {
+								"instance-variable": "Kills",
+								"value": "1"
+							}
+						}
+					],
+					"sid": 213876743928918
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Sprite",
+							"sid": 343334708392344,
+							"parameters": {
+								"object": "Sprite7"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "Sprite7",
+							"sid": 109087161650919
+						},
+						{
+							"id": "go-to-layout-by-name",
+							"objectClass": "System",
+							"sid": 514895745208791,
+							"parameters": {
+								"layout": "\"C\""
+							}
+						}
+					],
+					"sid": 477568959053620
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-enabled",
+							"objectClass": "Sprite",
+							"sid": 871241376371989,
+							"behaviorType": "Bullet"
+						}
+					],
+					"actions": [
+						{
+							"id": "spawn-another-object",
+							"objectClass": "Sprite",
+							"sid": 574741697518393,
+							"parameters": {
+								"object": "Particles2",
+								"layer": "0",
+								"image-point": "0",
+								"create-hierarchy": false
+							}
+						}
+					],
+					"sid": 639906120463444
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-start-of-layout",
+							"objectClass": "System",
+							"sid": 310833791588905
+						}
+					],
+					"actions": [
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Sprite",
+							"sid": 659779675255702,
+							"parameters": {
+								"instance-variable": "Kills",
+								"value": "0"
+							}
+						}
+					],
+					"sid": 112378913006908
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-animation-playing",
+							"objectClass": "Sprite",
+							"sid": 745589796635308,
+							"parameters": {
+								"animation": "\"Animation 2\""
+							}
+						}
+					],
+					"actions": [],
+					"sid": 569009817869315,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-collision-with-another-object",
+									"objectClass": "Sprite",
+									"sid": 334993836266729,
+									"parameters": {
+										"object": "Sprite3"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "destroy",
+									"objectClass": "Sprite3",
+									"sid": 478175411240757
+								}
+							],
+							"sid": 876270166680610
+						}
+					]
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Sprite",
+							"sid": 803614509959677,
+							"parameters": {
+								"object": "Sprite3"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "Sprite",
+							"sid": 232355312853669,
+							"parameters": {
+								"animation": "\"Animation 2\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 734475290288864,
+							"parameters": {
+								"seconds": "3"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "Sprite",
+							"sid": 129701717397913,
+							"parameters": {
+								"animation": "\"Animation 1\"",
+								"from": "beginning"
+							}
+						}
+					],
+					"sid": 711637463857234
+				}
+			],
+			"sid": 508442395222663
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Enemy3",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "has-los-to-object",
+							"objectClass": "Sprite3",
+							"sid": 507609861985535,
+							"behaviorType": "LineOfSight",
+							"parameters": {
+								"object": "Sprite",
+								"image-point": "0"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "move-at-angle",
+							"objectClass": "Sprite3",
+							"sid": 347012296931853,
+							"parameters": {
+								"angle": "angle(Sprite3.X,Sprite3.Y,Sprite.X,Sprite.Y)",
+								"distance": "1.5"
+							}
+						}
+					],
+					"sid": 136202468702103
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Sprite3",
+							"sid": 350416764787313,
+							"parameters": {
+								"object": "Sprite2"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "Sprite3",
+							"sid": 982358005216581
+						},
+						{
+							"id": "destroy",
+							"objectClass": "Sprite2",
+							"sid": 293798694215232
+						}
+					],
+					"sid": 798377301270696
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "every-x-seconds",
+							"objectClass": "System",
+							"sid": 764175375032778,
+							"parameters": {
+								"interval-seconds": "4"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "spawn-another-object",
+							"objectClass": "Sprite8",
+							"sid": 374999119032696,
+							"parameters": {
+								"object": "Sprite3",
+								"layer": "0",
+								"image-point": "0",
+								"create-hierarchy": false
+							}
+						}
+					],
+					"sid": 147907403158861
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "every-x-seconds",
+							"objectClass": "System",
+							"sid": 367091024202868,
+							"parameters": {
+								"interval-seconds": "6"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "spawn-another-object",
+							"objectClass": "Sprite9",
+							"sid": 148940264372712,
+							"parameters": {
+								"object": "Sprite3",
+								"layer": "0",
+								"image-point": "0",
+								"create-hierarchy": false
+							}
+						}
+					],
+					"sid": 681293676640348
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "every-x-seconds",
+							"objectClass": "System",
+							"sid": 571153365097148,
+							"parameters": {
+								"interval-seconds": "8"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "spawn-another-object",
+							"objectClass": "Sprite10",
+							"sid": 363647280991408,
+							"parameters": {
+								"object": "Sprite3",
+								"layer": "0",
+								"image-point": "0",
+								"create-hierarchy": false
+							}
+						}
+					],
+					"sid": 857728967305134
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "every-x-seconds",
+							"objectClass": "System",
+							"sid": 822021309630354,
+							"parameters": {
+								"interval-seconds": "10"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "spawn-another-object",
+							"objectClass": "Sprite11",
+							"sid": 493461499014046,
+							"parameters": {
+								"object": "Sprite3",
+								"layer": "0",
+								"image-point": "0",
+								"create-hierarchy": false
+							}
+						}
+					],
+					"sid": 359035085096473
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-destroyed",
+							"objectClass": "Sprite3",
+							"sid": 725832766397306
+						}
+					],
+					"actions": [
+						{
+							"id": "create-object",
+							"objectClass": "System",
+							"sid": 508422419555487,
+							"parameters": {
+								"object-to-create": "Particles",
+								"layer": "0",
+								"x": "Sprite3.X",
+								"y": "Sprite3.Y",
+								"create-hierarchy": false
+							}
+						}
+					],
+					"sid": 763532157979344
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-time",
+							"objectClass": "System",
+							"sid": 815515645043509,
+							"parameters": {
+								"comparison": 0,
+								"time-seconds": "15"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "spawn-another-object",
+							"objectClass": "Sprite14",
+							"sid": 657646728622829,
+							"parameters": {
+								"object": "Sprite13",
+								"layer": "0",
+								"image-point": "0",
+								"create-hierarchy": false
+							}
+						}
+					],
+					"sid": 861164830943351
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "has-los-to-object",
+							"objectClass": "Sprite3",
+							"sid": 143239428424259,
+							"behaviorType": "LineOfSight",
+							"parameters": {
+								"object": "Sprite",
+								"image-point": "0"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "move-at-angle",
+							"objectClass": "Sprite13",
+							"sid": 252773038197814,
+							"parameters": {
+								"angle": "angle(Sprite13.X,Sprite13.Y,Sprite.X,Sprite.Y)",
+								"distance": "0.5"
+							}
+						}
+					],
+					"sid": 642555771801537
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Sprite13",
+							"sid": 365216445380490,
+							"parameters": {
+								"object": "Sprite"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Sprite",
+							"sid": 957740960491756,
+							"parameters": {
+								"instance-variable": "Health",
+								"value": "0"
+							}
+						}
+					],
+					"sid": 896138794379332
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Sprite13",
+							"sid": 978905873448456,
+							"parameters": {
+								"instance-variable": "Boss1Health",
+								"comparison": 3,
+								"value": "0"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "Sprite13",
+							"sid": 217173367646225
+						}
+					],
+					"sid": 652751958588460
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-destroyed",
+							"objectClass": "Sprite13",
+							"sid": 870727617842420
+						}
+					],
+					"actions": [
+						{
+							"id": "spawn-another-object",
+							"objectClass": "Sprite13",
+							"sid": 457852563990703,
+							"parameters": {
+								"object": "Sprite7",
+								"layer": "0",
+								"image-point": "0",
+								"create-hierarchy": false
+							}
+						}
+					],
+					"sid": 907635007108489
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Sprite13",
+							"sid": 659886722741435,
+							"parameters": {
+								"object": "Sprite2"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "subtract-from-instvar",
+							"objectClass": "Sprite13",
+							"sid": 885576522057166,
+							"parameters": {
+								"instance-variable": "Boss1Health",
+								"value": "1"
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "Sprite2",
+							"sid": 184755877064656
+						}
+					],
+					"sid": 800386363712886
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-x",
+							"objectClass": "Sprite3",
+							"sid": 475745201932073,
+							"parameters": {
+								"comparison": 3,
+								"x-co-ordinate": "Sprite.X"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-mirrored",
+							"objectClass": "Sprite3",
+							"sid": 280882465035701,
+							"parameters": {
+								"state": "mirrored"
+							}
+						}
+					],
+					"sid": 165405605459021
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-x",
+							"objectClass": "Sprite3",
+							"sid": 672431324805238,
+							"parameters": {
+								"comparison": 3,
+								"x-co-ordinate": "Sprite.X"
+							},
+							"isInverted": true
+						}
+					],
+					"actions": [
+						{
+							"id": "set-mirrored",
+							"objectClass": "Sprite3",
+							"sid": 360169020857978,
+							"parameters": {
+								"state": "not-mirrored"
+							}
+						}
+					],
+					"sid": 270429634721835
+				}
+			],
+			"sid": 291461555288077
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-outside-layout",
+					"objectClass": "Sprite2",
+					"sid": 617957737804906
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Sprite2",
+					"sid": 644935570628769
+				}
+			],
+			"sid": 245138274495958
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 317903218649566
+				}
+			],
+			"actions": [
+				{
+					"id": "set-x",
+					"objectClass": "TiledBackground2",
+					"sid": 246210580588203,
+					"parameters": {
+						"x": "TiledBackground2.X-bg_speed*dt"
+					}
+				}
+			],
+			"sid": 983098149585525
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-x",
+					"objectClass": "TiledBackground2",
+					"sid": 668078085994174,
+					"parameters": {
+						"comparison": 3,
+						"x-co-ordinate": "-960"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-x",
+					"objectClass": "TiledBackground2",
+					"sid": 662094463683529,
+					"parameters": {
+						"x": "TiledBackground2.X+1920"
+					}
+				}
+			],
+			"sid": 824878627238872
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-created",
+					"objectClass": "Sprite5",
+					"sid": 197823716766934
+				}
+			],
+			"actions": [
+				{
+					"id": "set-angle-of-motion",
+					"objectClass": "Sprite5",
+					"sid": 315127749990155,
+					"behaviorType": "Bullet",
+					"parameters": {
+						"angle": "180"
+					}
+				}
+			],
+			"sid": 113700439386261
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite5",
+					"sid": 356876065887533,
+					"parameters": {
+						"object": "Sprite"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 795484325241967,
+					"parameters": {
+						"audio-file": "fart 3",
+						"loop": "not-looping",
+						"volume": "-15",
+						"tag-optional": "\"\""
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "Sprite5",
+					"sid": 319254819691182
+				},
+				{
+					"id": "destroy",
+					"objectClass": "Sprite3",
+					"sid": 832061948661051
+				}
+			],
+			"sid": 534528036035178
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 396910585145717
+				}
+			],
+			"actions": [
+				{
+					"id": "set-text",
+					"objectClass": "Text3",
+					"sid": 899002049914982,
+					"parameters": {
+						"text": "Sprite.Health"
+					}
+				}
+			],
+			"sid": 204512140376772
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-destroyed",
+					"objectClass": "Sprite5",
+					"sid": 514617742605461
+				}
+			],
+			"actions": [
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 642890802207711,
+					"parameters": {
+						"object-to-create": "Particles3",
+						"layer": "0",
+						"x": "Sprite.X",
+						"y": "Sprite.Y",
+						"create-hierarchy": false
+					}
+				}
+			],
+			"sid": 330299837493344
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-x-seconds",
+					"objectClass": "System",
+					"sid": 963865342382233,
+					"parameters": {
+						"interval-seconds": "3"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "spawn-another-object",
+					"objectClass": "Sprite12",
+					"sid": 439987064322068,
+					"parameters": {
+						"object": "Sprite5",
+						"layer": "0",
+						"image-point": "0",
+						"create-hierarchy": false
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "Sprite12",
+					"sid": 872674496068963
+				}
+			],
+			"sid": 311240798565466
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-x-seconds",
+					"objectClass": "System",
+					"sid": 173682007508481,
+					"parameters": {
+						"interval-seconds": "20"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 596492782415091,
+					"parameters": {
+						"object-to-create": "Sprite12",
+						"layer": "0",
+						"x": "random(LayoutWidth)",
+						"y": "random(LayoutHeight)",
+						"create-hierarchy": false
+					}
+				}
+			],
+			"sid": 112394576545334
+		}
+	],
+	"sid": 621062375865399
+}

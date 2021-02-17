@@ -1,0 +1,30 @@
+{
+	"name": "Start",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 712241763529081,
+					"parameters": {
+						"key": 32
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-nextprevious-layout",
+					"objectClass": "System",
+					"sid": 418804889373011,
+					"parameters": {
+						"which": "next"
+					}
+				}
+			],
+			"sid": 858211139361236
+		}
+	],
+	"sid": 730490715528537
+}
