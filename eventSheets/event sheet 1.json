@@ -258,91 +258,99 @@
 							}
 						}
 					],
-					"actions": [
-						{
-							"id": "set-max-speed",
-							"objectClass": "Sprite",
-							"sid": 726708323621324,
-							"behaviorType": "8Direction",
-							"parameters": {
-								"max-speed": "0"
-							}
-						},
-						{
-							"id": "set-animation",
-							"objectClass": "Sprite",
-							"sid": 287341649318708,
-							"parameters": {
-								"animation": "\"Animation 2\"",
-								"from": "beginning"
-							}
-						},
-						{
-							"id": "play",
-							"objectClass": "Audio",
-							"sid": 441451644221818,
-							"parameters": {
-								"audio-file": "445999__breviceps__fart-2",
-								"loop": "not-looping",
-								"volume": "-15",
-								"tag-optional": "\"\""
-							}
-						},
-						{
-							"id": "set-enabled",
-							"objectClass": "Sprite",
-							"sid": 701498814464134,
-							"behaviorType": "Bullet",
-							"parameters": {
-								"state": "enabled"
-							}
-						},
-						{
-							"id": "wait",
-							"objectClass": "System",
-							"sid": 760382862022464,
-							"parameters": {
-								"seconds": "0.7"
-							}
-						},
-						{
-							"id": "set-animation",
-							"objectClass": "Sprite",
-							"sid": 326953416262189,
-							"parameters": {
-								"animation": "\"Animation 1\"",
-								"from": "beginning"
-							}
-						},
-						{
-							"id": "set-enabled",
-							"objectClass": "Sprite",
-							"sid": 332537145660367,
-							"behaviorType": "Bullet",
-							"parameters": {
-								"state": "disabled"
-							}
-						},
-						{
-							"id": "set-max-speed",
-							"objectClass": "Sprite",
-							"sid": 430346866916931,
-							"behaviorType": "8Direction",
-							"parameters": {
-								"max-speed": "400"
-							}
-						},
-						{
-							"id": "wait",
-							"objectClass": "System",
-							"sid": 572125268584693,
-							"parameters": {
-								"seconds": "5"
-							}
-						}
-					],
+					"actions": [],
 					"sid": 504996003734995,
-					"isOrBlock": true
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "every-x-seconds",
+									"objectClass": "System",
+									"sid": 518313004477331,
+									"parameters": {
+										"interval-seconds": "2"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-max-speed",
+									"objectClass": "Sprite",
+									"sid": 963538367719882,
+									"behaviorType": "8Direction",
+									"parameters": {
+										"max-speed": "0"
+									}
+								},
+								{
+									"id": "set-animation",
+									"objectClass": "Sprite",
+									"sid": 657101808833742,
+									"parameters": {
+										"animation": "\"Animation 2\"",
+										"from": "beginning"
+									}
+								},
+								{
+									"id": "play",
+									"objectClass": "Audio",
+									"sid": 725348452724050,
+									"parameters": {
+										"audio-file": "445999__breviceps__fart-2",
+										"loop": "not-looping",
+										"volume": "-15",
+										"tag-optional": "\"\""
+									}
+								},
+								{
+									"id": "set-enabled",
+									"objectClass": "Sprite",
+									"sid": 355935119330800,
+									"behaviorType": "Bullet",
+									"parameters": {
+										"state": "enabled"
+									}
+								},
+								{
+									"id": "wait",
+									"objectClass": "System",
+									"sid": 864203831650465,
+									"parameters": {
+										"seconds": "0.7"
+									}
+								},
+								{
+									"id": "set-animation",
+									"objectClass": "Sprite",
+									"sid": 769070790919841,
+									"parameters": {
+										"animation": "\"Animation 1\"",
+										"from": "beginning"
+									}
+								},
+								{
+									"id": "set-enabled",
+									"objectClass": "Sprite",
+									"sid": 307754897074860,
+									"behaviorType": "Bullet",
+									"parameters": {
+										"state": "disabled"
+									}
+								},
+								{
+									"id": "set-max-speed",
+									"objectClass": "Sprite",
+									"sid": 614685821132393,
+									"behaviorType": "8Direction",
+									"parameters": {
+										"max-speed": "400"
+									}
+								}
+							],
+							"sid": 333826285408727
+						}
+					]
 				},
 				{
 					"eventType": "block",
@@ -530,11 +538,11 @@
 							"sid": 490344446080693
 						},
 						{
-							"id": "go-to-nextprevious-layout",
+							"id": "go-to-layout-by-name",
 							"objectClass": "System",
-							"sid": 207900797674977,
+							"sid": 376520102660206,
 							"parameters": {
-								"which": "next"
+								"layout": "\"Next02\""
 							}
 						}
 					],
@@ -1098,9 +1106,9 @@
 				{
 					"id": "every-x-seconds",
 					"objectClass": "System",
-					"sid": 638107199758466,
+					"sid": 543421064013376,
 					"parameters": {
-						"interval-seconds": "3"
+						"interval-seconds": "5"
 					}
 				}
 			],

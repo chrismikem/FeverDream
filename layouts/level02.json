@@ -175,7 +175,7 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1088,
+						"x": 1024,
 						"y": 64,
 						"width": 64,
 						"height": 64,
@@ -204,7 +204,7 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1088,
+						"x": 1024,
 						"y": 448,
 						"width": 64,
 						"height": 64,
@@ -245,9 +245,9 @@
 						}
 					},
 					"world": {
-						"x": 480,
-						"y": -32,
-						"width": 992,
+						"x": 464,
+						"y": -31.999999999999996,
+						"width": 1280,
 						"height": 32,
 						"originX": 0.5,
 						"originY": 0.5,
@@ -286,9 +286,9 @@
 						}
 					},
 					"world": {
-						"x": 480,
+						"x": 464,
 						"y": 576,
-						"width": 992,
+						"width": 1280,
 						"height": 32,
 						"originX": 0.5,
 						"originY": 0.5,
@@ -315,7 +315,7 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": -224,
+						"x": -96,
 						"y": 320,
 						"width": 64,
 						"height": 64,
@@ -344,7 +344,7 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": -224,
+						"x": -96,
 						"y": 192,
 						"width": 64,
 						"height": 64,
@@ -357,6 +357,88 @@
 							1
 						],
 						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Sprite4",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 39,
+					"instanceVariables": {},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						},
+						"Jumpthru": {
+							"properties": {
+								"enabled": true
+							}
+						}
+					},
+					"world": {
+						"x": -160,
+						"y": 272,
+						"width": 608,
+						"height": 32,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 1.5707963267948966,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Sprite4",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 48,
+					"instanceVariables": {},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						},
+						"Jumpthru": {
+							"properties": {
+								"enabled": true
+							}
+						}
+					},
+					"world": {
+						"x": 1120,
+						"y": 272,
+						"width": 640,
+						"height": 32,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 1.5707963267948966,
 						"zElevation": 0
 					}
 				}
@@ -395,7 +477,7 @@
 						"text": "Text",
 						"enable-bbcode": true,
 						"font": "Arial",
-						"size": 12,
+						"size": 20,
 						"line-height": 0,
 						"bold": false,
 						"italic": false,
