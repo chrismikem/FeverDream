@@ -408,10 +408,10 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 1039,
-						"y": 287,
-						"width": 544,
-						"height": 576,
+						"x": 943,
+						"y": 383,
+						"width": 2346.666666666667,
+						"height": 2048,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [

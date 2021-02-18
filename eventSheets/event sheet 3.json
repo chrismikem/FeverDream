@@ -846,61 +846,6 @@
 					"eventType": "block",
 					"conditions": [
 						{
-							"id": "compare-time",
-							"objectClass": "System",
-							"sid": 815515645043509,
-							"parameters": {
-								"comparison": 0,
-								"time-seconds": "15"
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "spawn-another-object",
-							"objectClass": "Sprite14",
-							"sid": 657646728622829,
-							"parameters": {
-								"object": "Sprite13",
-								"layer": "0",
-								"image-point": "0",
-								"create-hierarchy": false
-							}
-						}
-					],
-					"sid": 861164830943351
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "has-los-to-object",
-							"objectClass": "Sprite3",
-							"sid": 143239428424259,
-							"behaviorType": "LineOfSight",
-							"parameters": {
-								"object": "Sprite",
-								"image-point": "0"
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "move-at-angle",
-							"objectClass": "Sprite13",
-							"sid": 252773038197814,
-							"parameters": {
-								"angle": "angle(Sprite13.X,Sprite13.Y,Sprite.X,Sprite.Y)",
-								"distance": "0.5"
-							}
-						}
-					],
-					"sid": 642555771801537
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
 							"id": "on-collision-with-another-object",
 							"objectClass": "Sprite13",
 							"sid": 365216445380490,
@@ -911,12 +856,12 @@
 					],
 					"actions": [
 						{
-							"id": "set-instvar-value",
+							"id": "subtract-from-instvar",
 							"objectClass": "Sprite",
-							"sid": 957740960491756,
+							"sid": 164468289198182,
 							"parameters": {
 								"instance-variable": "Health",
-								"value": "0"
+								"value": "1"
 							}
 						}
 					],
