@@ -1,54 +1,12 @@
 {
-	"name": "Layout 1",
+	"name": "Layout 5",
 	"layers": [
 		{
 			"name": "Layer 0",
 			"overriden": 0,
 			"instances": [
 				{
-					"type": "Text7",
-					"properties": {
-						"text": "Press Spacebar to continue",
-						"enable-bbcode": true,
-						"font": "Comic Sans MS",
-						"size": 12,
-						"line-height": 0,
-						"bold": false,
-						"italic": false,
-						"color": [
-							0,
-							0,
-							0,
-							1
-						],
-						"horizontal-alignment": "left",
-						"vertical-alignment": "top",
-						"wrapping": "word",
-						"initially-visible": true,
-						"origin": "top-left"
-					},
-					"uid": 59,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 160,
-						"y": 416,
-						"width": 247,
-						"height": 30,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Sprite6",
+					"type": "Sprite22",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -56,14 +14,14 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 34,
+					"uid": 74,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 304.5,
-						"y": 180,
-						"width": 450,
-						"height": 341,
+						"x": 327.5,
+						"y": 265,
+						"width": 650,
+						"height": 528,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -77,7 +35,7 @@
 					}
 				},
 				{
-					"type": "Sprite15",
+					"type": "Sprite23",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -85,14 +43,14 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 61,
+					"uid": 75,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 304,
-						"y": 293,
-						"width": 443,
-						"height": 104,
+						"x": 330,
+						"y": 471.5,
+						"width": 646,
+						"height": 110,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -106,9 +64,9 @@
 					}
 				},
 				{
-					"type": "Text9",
+					"type": "Text13",
 					"properties": {
-						"text": "the G.O.D (government of dreams) are a secret organization....",
+						"text": "as michael dozed off to sleep a mysterious red ray of energy burst through his ceiling roof teleporting him...",
 						"enable-bbcode": true,
 						"font": "Consolas",
 						"size": 12,
@@ -116,9 +74,9 @@
 						"bold": false,
 						"italic": false,
 						"color": [
-							0.9686274509803922,
-							0.9529411764705882,
-							0.9529411764705882,
+							1,
+							1,
+							1,
 							1
 						],
 						"horizontal-alignment": "left",
@@ -127,14 +85,14 @@
 						"initially-visible": true,
 						"origin": "top-left"
 					},
-					"uid": 64,
+					"uid": 76,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 97,
-						"y": 256,
-						"width": 400,
-						"height": 52,
+						"x": 24,
+						"y": 434,
+						"width": 591,
+						"height": 45.98420137062103,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -143,12 +101,12 @@
 							1,
 							1
 						],
-						"angle": 0,
+						"angle": 6.27552088949498,
 						"zElevation": 0
 					}
 				}
 			],
-			"sid": 104778226371397,
+			"sid": 792061266957710,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
 			"color": [
@@ -158,9 +116,9 @@
 				1
 			],
 			"backgroundColor": [
-				1,
-				1,
-				1,
+				0.3686274509803922,
+				0.3686274509803922,
+				0.3686274509803922,
 				1
 			],
 			"isTransparent": false,
@@ -173,11 +131,11 @@
 			"global": false
 		}
 	],
-	"sid": 837128269793770,
+	"sid": 978014244297364,
 	"nonworld-instances": [],
 	"effectTypes": [],
-	"width": 960,
-	"height": 540,
+	"width": 650,
+	"height": 1080,
 	"unboundedScrolling": false,
 	"eventSheet": "Start"
 }
