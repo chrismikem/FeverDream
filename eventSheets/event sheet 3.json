@@ -483,7 +483,7 @@
 							"objectClass": "Sprite",
 							"sid": 553987737698323,
 							"parameters": {
-								"instance-variable": "Kills",
+								"instance-variable": "Kills01",
 								"value": "1"
 							}
 						}
@@ -559,7 +559,7 @@
 							"objectClass": "Sprite",
 							"sid": 659779675255702,
 							"parameters": {
-								"instance-variable": "Kills",
+								"instance-variable": "Kills01",
 								"value": "0"
 							}
 						}
@@ -872,10 +872,10 @@
 					"conditions": [
 						{
 							"id": "compare-instance-variable",
-							"objectClass": "Sprite13",
-							"sid": 978905873448456,
+							"objectClass": "ProgressBar",
+							"sid": 890765292226968,
 							"parameters": {
-								"instance-variable": "Boss1Health",
+								"instance-variable": "BossHealth",
 								"comparison": 3,
 								"value": "0"
 							}
@@ -886,6 +886,11 @@
 							"id": "destroy",
 							"objectClass": "Sprite13",
 							"sid": 217173367646225
+						},
+						{
+							"id": "destroy",
+							"objectClass": "ProgressBar",
+							"sid": 562826883824589
 						}
 					],
 					"sid": 652751958588460
@@ -929,10 +934,10 @@
 					"actions": [
 						{
 							"id": "subtract-from-instvar",
-							"objectClass": "Sprite13",
-							"sid": 885576522057166,
+							"objectClass": "ProgressBar",
+							"sid": 905659052234529,
 							"parameters": {
-								"instance-variable": "Boss1Health",
+								"instance-variable": "BossHealth",
 								"value": "1"
 							}
 						},
@@ -994,6 +999,80 @@
 						}
 					],
 					"sid": 270429634721835
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "every-x-seconds",
+							"objectClass": "System",
+							"sid": 771038220016113,
+							"parameters": {
+								"interval-seconds": "3"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "spawn-another-object",
+							"objectClass": "Sprite13",
+							"sid": 914584908712052,
+							"parameters": {
+								"object": "Sprite14",
+								"layer": "0",
+								"image-point": "0",
+								"create-hierarchy": false
+							}
+						}
+					],
+					"sid": 914130144701810
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-created",
+							"objectClass": "Sprite14",
+							"sid": 769987490813627
+						}
+					],
+					"actions": [
+						{
+							"id": "set-angle-of-motion",
+							"objectClass": "Sprite14",
+							"sid": 961618445134389,
+							"behaviorType": "Bullet",
+							"parameters": {
+								"angle": "angle(Sprite14.X,Sprite14.Y,Sprite.X,Sprite.Y)"
+							}
+						}
+					],
+					"sid": 675279490655525
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Sprite14",
+							"sid": 566708609726703,
+							"parameters": {
+								"object": "Sprite"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "subtract-from-instvar",
+							"objectClass": "Sprite",
+							"sid": 395790369541025,
+							"parameters": {
+								"instance-variable": "Health",
+								"value": "1"
+							}
+						}
+					],
+					"sid": 511438999577167
 				}
 			],
 			"sid": 291461555288077
@@ -1137,6 +1216,14 @@
 					"sid": 899002049914982,
 					"parameters": {
 						"text": "Sprite.Health"
+					}
+				},
+				{
+					"id": "set-progress",
+					"objectClass": "ProgressBar",
+					"sid": 512279296321758,
+					"parameters": {
+						"value": "ProgressBar.BossHealth"
 					}
 				}
 			],

@@ -23,10 +23,16 @@
 			"sid": 276994621732756
 		},
 		{
-			"name": "Kills",
+			"name": "Kills01",
 			"type": "number",
 			"desc": "",
 			"sid": 798688547917185
+		},
+		{
+			"name": "Kills02",
+			"type": "number",
+			"desc": "",
+			"sid": 636252047536755
 		}
 	],
 	"behaviorTypes": [

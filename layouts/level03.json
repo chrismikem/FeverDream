@@ -114,7 +114,8 @@
 						"shooting_dir": 0,
 						"dash": 0,
 						"Health": 5,
-						"Kills": 0
+						"Kills01": 10,
+						"Kills02": 20
 					},
 					"behaviors": {
 						"8Direction": {
@@ -424,9 +425,9 @@
 						"bold": false,
 						"italic": false,
 						"color": [
-							1,
-							1,
-							1,
+							0.00784313725490196,
+							0.9686274509803922,
+							0.043137254901960784,
 							1
 						],
 						"horizontal-alignment": "left",
@@ -441,8 +442,8 @@
 					"world": {
 						"x": 64,
 						"y": 32,
-						"width": 200,
-						"height": 30,
+						"width": 64,
+						"height": 32,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -466,7 +467,7 @@
 					},
 					"uid": 57,
 					"instanceVariables": {
-						"Boss1Health": 25
+						"Boss1Health": 30
 					},
 					"behaviors": {},
 					"world": {
@@ -484,6 +485,35 @@
 						],
 						"angle": 0,
 						"zElevation": 0
+					}
+				},
+				{
+					"type": "ProgressBar",
+					"properties": {
+						"value": 0,
+						"maximum": 30,
+						"tooltip": "",
+						"initially-visible": true,
+						"id": ""
+					},
+					"uid": 84,
+					"instanceVariables": {
+						"BossHealth": 40
+					},
+					"behaviors": {},
+					"world": {
+						"x": 640,
+						"y": 32,
+						"width": 192,
+						"height": 32,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						]
 					}
 				}
 			],

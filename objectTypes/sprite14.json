@@ -4,7 +4,13 @@
 	"sid": 107004921443021,
 	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Bullet",
+			"name": "Bullet",
+			"sid": 907101753139651
+		}
+	],
 	"effectTypes": [],
 	"animations": {
 		"items": [
@@ -18,7 +24,7 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 6163924,
+						"imageSpriteId": 2693435,
 						"useCollisionPoly": true,
 						"duration": 1
 					}

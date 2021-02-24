@@ -60,7 +60,8 @@
 						"shooting_dir": 0,
 						"dash": 0,
 						"Health": 5,
-						"Kills": 0
+						"Kills01": 10,
+						"Kills02": 20
 					},
 					"behaviors": {
 						"8Direction": {
@@ -379,8 +380,8 @@
 					"world": {
 						"x": 989,
 						"y": 253,
-						"width": 64,
-						"height": 64,
+						"width": 128,
+						"height": 96,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -408,10 +409,51 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 943,
-						"y": 383,
-						"width": 2346.666666666667,
-						"height": 2048,
+						"x": 1152,
+						"y": 800,
+						"width": 512,
+						"height": 448,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Sprite14",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 83,
+					"instanceVariables": {},
+					"behaviors": {
+						"Bullet": {
+							"properties": {
+								"speed": 400,
+								"acceleration": 0,
+								"gravity": 0,
+								"bounce-off-solids": false,
+								"set-angle": true,
+								"step": false,
+								"enabled": true
+							}
+						}
+					},
+					"world": {
+						"x": 416,
+						"y": 352,
+						"width": 96,
+						"height": 96,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [

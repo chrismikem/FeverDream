@@ -47,9 +47,9 @@
 								{
 									"id": "every-x-seconds",
 									"objectClass": "System",
-									"sid": 150534044946034,
+									"sid": 779777488946138,
 									"parameters": {
-										"interval-seconds": "0.2"
+										"interval-seconds": "0.4"
 									}
 								}
 							],
@@ -478,11 +478,11 @@
 					],
 					"actions": [
 						{
-							"id": "add-to-instvar",
+							"id": "subtract-from-instvar",
 							"objectClass": "Sprite",
-							"sid": 522113575199921,
+							"sid": 991758252812339,
 							"parameters": {
-								"instance-variable": "Kills",
+								"instance-variable": "Kills01",
 								"value": "1"
 							}
 						}
@@ -495,11 +495,11 @@
 						{
 							"id": "compare-instance-variable",
 							"objectClass": "Sprite",
-							"sid": 711916612134581,
+							"sid": 437257539186995,
 							"parameters": {
-								"instance-variable": "Kills",
-								"comparison": 5,
-								"value": "10"
+								"instance-variable": "Kills01",
+								"comparison": 3,
+								"value": "0"
 							}
 						}
 					],
@@ -1070,6 +1070,14 @@
 					"sid": 308366099420448,
 					"parameters": {
 						"text": "Sprite.Health"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "Text16",
+					"sid": 239793387702983,
+					"parameters": {
+						"text": "Sprite.Kills01"
 					}
 				}
 			],

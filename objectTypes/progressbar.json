@@ -1,0 +1,15 @@
+{
+	"name": "ProgressBar",
+	"plugin-id": "progressbar",
+	"sid": 344390879612375,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "BossHealth",
+			"type": "number",
+			"desc": "",
+			"sid": 322444415986052
+		}
+	],
+	"behaviorTypes": []
+}
