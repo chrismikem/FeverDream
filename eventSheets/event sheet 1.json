@@ -315,9 +315,9 @@
 								{
 									"id": "wait",
 									"objectClass": "System",
-									"sid": 864203831650465,
+									"sid": 978162851176124,
 									"parameters": {
-										"seconds": "0.7"
+										"seconds": "1"
 									}
 								},
 								{

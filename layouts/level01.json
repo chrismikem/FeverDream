@@ -114,7 +114,7 @@
 						"shooting_dir": 0,
 						"dash": 0,
 						"Health": 5,
-						"Kills01": 10,
+						"Kills01": 15,
 						"Kills02": 20
 					},
 					"behaviors": {

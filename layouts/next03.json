@@ -8,7 +8,7 @@
 				{
 					"type": "Text4",
 					"properties": {
-						"text": "Level 3",
+						"text": "Level 3: Boss",
 						"enable-bbcode": true,
 						"font": "Arial",
 						"size": 35,
@@ -31,9 +31,9 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 384,
+						"x": 320,
 						"y": 160,
-						"width": 160,
+						"width": 288,
 						"height": 96,
 						"originX": 0,
 						"originY": 0,

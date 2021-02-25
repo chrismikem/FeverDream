@@ -172,7 +172,8 @@
 			"Sprite27",
 			"Text15",
 			"Text16",
-			"ProgressBar"
+			"ProgressBar",
+			"Sprite28"
 		],
 		"subfolders": []
 	},

@@ -8,7 +8,7 @@
 				{
 					"type": "Text4",
 					"properties": {
-						"text": "Level 2",
+						"text": "Level 2: Tackle",
 						"enable-bbcode": true,
 						"font": "Arial",
 						"size": 35,
@@ -31,9 +31,9 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 352,
+						"x": 256,
 						"y": 160,
-						"width": 160,
+						"width": 320,
 						"height": 96,
 						"originX": 0,
 						"originY": 0,
