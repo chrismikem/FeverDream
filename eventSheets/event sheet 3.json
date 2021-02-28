@@ -1202,6 +1202,27 @@
 						}
 					],
 					"sid": 675279490655525
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-created",
+							"objectClass": "Sprite14",
+							"sid": 223041400301698
+						}
+					],
+					"actions": [
+						{
+							"id": "set-mirrored",
+							"objectClass": "Sprite14",
+							"sid": 168387451500884,
+							"parameters": {
+								"state": "mirrored"
+							}
+						}
+					],
+					"sid": 824798122320172
 				}
 			],
 			"sid": 291461555288077

@@ -384,6 +384,37 @@
 						"angle": 1.5707963267948966,
 						"zElevation": 0
 					}
+				},
+				{
+					"type": "Sprite13",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 57,
+					"instanceVariables": {
+						"Boss1Health": 35
+					},
+					"behaviors": {},
+					"world": {
+						"x": 704,
+						"y": 320,
+						"width": 512,
+						"height": 448,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
 				}
 			],
 			"sid": 899473017587190,
@@ -446,37 +477,6 @@
 						"height": 32,
 						"originX": 0,
 						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Sprite13",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 57,
-					"instanceVariables": {
-						"Boss1Health": 30
-					},
-					"behaviors": {},
-					"world": {
-						"x": 704,
-						"y": 320,
-						"width": 512,
-						"height": 448,
-						"originX": 0.5,
-						"originY": 0.5,
 						"color": [
 							1,
 							1,
