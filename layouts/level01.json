@@ -149,8 +149,8 @@
 					"world": {
 						"x": 368,
 						"y": 240,
-						"width": 128,
-						"height": 128,
+						"width": 126.98412698412697,
+						"height": 76.19047619047619,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -554,6 +554,33 @@
 						],
 						"angle": 0,
 						"zElevation": 0
+					}
+				},
+				{
+					"type": "ProgressBar2",
+					"properties": {
+						"value": 0,
+						"maximum": 100,
+						"tooltip": "",
+						"initially-visible": true,
+						"id": ""
+					},
+					"uid": 86,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 64,
+						"y": 64,
+						"width": 192,
+						"height": 32,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						]
 					}
 				}
 			],

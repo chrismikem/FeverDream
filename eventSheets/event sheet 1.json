@@ -286,9 +286,9 @@
 								{
 									"id": "set-animation",
 									"objectClass": "Sprite",
-									"sid": 657101808833742,
+									"sid": 983458566442914,
 									"parameters": {
-										"animation": "\"Animation 2\"",
+										"animation": "\"Animation 3\"",
 										"from": "beginning"
 									}
 								},
@@ -579,9 +579,9 @@
 						{
 							"id": "is-animation-playing",
 							"objectClass": "Sprite",
-							"sid": 464444373373224,
+							"sid": 765450007092978,
 							"parameters": {
-								"animation": "\"Animation 2\""
+								"animation": "\"Animation 3\""
 							}
 						}
 					],
@@ -636,9 +636,9 @@
 						{
 							"id": "wait",
 							"objectClass": "System",
-							"sid": 190774903136898,
+							"sid": 546805821127765,
 							"parameters": {
-								"seconds": "3"
+								"seconds": "2"
 							}
 						},
 						{

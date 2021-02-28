@@ -286,9 +286,9 @@
 								{
 									"id": "set-animation",
 									"objectClass": "Sprite",
-									"sid": 183218125140181,
+									"sid": 990444889007312,
 									"parameters": {
-										"animation": "\"Animation 2\"",
+										"animation": "\"Animation 3\"",
 										"from": "beginning"
 									}
 								},

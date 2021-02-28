@@ -286,9 +286,9 @@
 								{
 									"id": "set-animation",
 									"objectClass": "Sprite",
-									"sid": 344089122413716,
+									"sid": 114060072487740,
 									"parameters": {
-										"animation": "\"Animation 2\"",
+										"animation": "\"Animation 3\"",
 										"from": "beginning"
 									}
 								},
@@ -602,9 +602,9 @@
 						{
 							"id": "is-animation-playing",
 							"objectClass": "Sprite",
-							"sid": 103550928712498,
+							"sid": 778329248310736,
 							"parameters": {
-								"animation": "\"Animation 2\""
+								"animation": "\"Animation 3\""
 							}
 						}
 					],
@@ -650,7 +650,7 @@
 						{
 							"id": "set-animation",
 							"objectClass": "Sprite",
-							"sid": 134498399570227,
+							"sid": 649869028792913,
 							"parameters": {
 								"animation": "\"Animation 2\"",
 								"from": "beginning"
@@ -682,9 +682,9 @@
 						{
 							"id": "is-animation-playing",
 							"objectClass": "Sprite",
-							"sid": 108243170770036,
+							"sid": 538282239690993,
 							"parameters": {
-								"animation": "\"Animation 2\""
+								"animation": "\"Animation 3\""
 							}
 						}
 					],
@@ -730,7 +730,7 @@
 						{
 							"id": "set-animation",
 							"objectClass": "Sprite",
-							"sid": 603454479273040,
+							"sid": 950256993605339,
 							"parameters": {
 								"animation": "\"Animation 2\"",
 								"from": "beginning"
@@ -1299,11 +1299,6 @@
 					"id": "destroy",
 					"objectClass": "Sprite3",
 					"sid": 626100828643360
-				},
-				{
-					"id": "destroy",
-					"objectClass": "Sprite28",
-					"sid": 963296290914233
 				}
 			],
 			"sid": 134461995402627
@@ -1319,11 +1314,11 @@
 			],
 			"actions": [
 				{
-					"id": "set-text",
-					"objectClass": "Text3",
-					"sid": 559320284366334,
+					"id": "set-progress",
+					"objectClass": "ProgressBar2",
+					"sid": 916358507183253,
 					"parameters": {
-						"text": "Sprite.Health"
+						"value": "Sprite.Health"
 					}
 				},
 				{
