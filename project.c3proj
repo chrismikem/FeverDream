@@ -174,7 +174,25 @@
 			"Text16",
 			"ProgressBar",
 			"Sprite28",
-			"ProgressBar2"
+			"ProgressBar2",
+			"Sprite30",
+			"Sprite31",
+			"Sprite32",
+			"Text17",
+			"Sprite33",
+			"Text18",
+			"Sprite34",
+			"Sprite35",
+			"Text19",
+			"Text20",
+			"Sprite36",
+			"Sprite37",
+			"Sprite38",
+			"Text21",
+			"Sprite39",
+			"Sprite40",
+			"Text22",
+			"Text23"
 		],
 		"subfolders": []
 	},
@@ -201,6 +219,10 @@
 			"Level03",
 			"GO",
 			"C",
+			"Layout 8",
+			"Layout 9",
+			"Layout 10",
+			"Layout 11",
 			"obj"
 		],
 		"subfolders": []
