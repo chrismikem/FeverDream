@@ -192,7 +192,9 @@
 			"Sprite39",
 			"Sprite40",
 			"Text22",
-			"Text23"
+			"Text23",
+			"TiledBackground",
+			"TiledBackground3"
 		],
 		"subfolders": []
 	},
@@ -258,6 +260,21 @@
 					"name": "Hit_hurt 18.webm",
 					"type": "audio/webm; codecs=opus",
 					"sid": 156647488037023
+				},
+				{
+					"name": "shooting sound.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 336931138334608
+				},
+				{
+					"name": "boss shooting.mp3",
+					"type": "audio/mpeg",
+					"sid": 543323423026993
+				},
+				{
+					"name": "boss scream.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 293049012657914
 				}
 			],
 			"subfolders": []

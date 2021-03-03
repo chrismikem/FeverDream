@@ -55,6 +55,17 @@
 							],
 							"actions": [
 								{
+									"id": "play",
+									"objectClass": "Audio",
+									"sid": 387937657011452,
+									"parameters": {
+										"audio-file": "shooting sound",
+										"loop": "not-looping",
+										"volume": "-10",
+										"tag-optional": "\"\""
+									}
+								},
+								{
 									"id": "spawn-another-object",
 									"objectClass": "Sprite",
 									"sid": 951384253774903,
@@ -767,7 +778,7 @@
 						{
 							"id": "every-x-seconds",
 							"objectClass": "System",
-							"sid": 928839389615987,
+							"sid": 912288542954038,
 							"parameters": {
 								"interval-seconds": "6"
 							}
@@ -777,7 +788,7 @@
 						{
 							"id": "spawn-another-object",
 							"objectClass": "Sprite8",
-							"sid": 480141026390045,
+							"sid": 707082467730542,
 							"parameters": {
 								"object": "Sprite3",
 								"layer": "0",
@@ -794,7 +805,7 @@
 						{
 							"id": "every-x-seconds",
 							"objectClass": "System",
-							"sid": 217652456619145,
+							"sid": 472538618865618,
 							"parameters": {
 								"interval-seconds": "8"
 							}
@@ -804,7 +815,7 @@
 						{
 							"id": "spawn-another-object",
 							"objectClass": "Sprite9",
-							"sid": 222496262478391,
+							"sid": 191287702615637,
 							"parameters": {
 								"object": "Sprite3",
 								"layer": "0",
@@ -821,9 +832,9 @@
 						{
 							"id": "every-x-seconds",
 							"objectClass": "System",
-							"sid": 273604614346332,
+							"sid": 290184791884255,
 							"parameters": {
-								"interval-seconds": "10"
+								"interval-seconds": "11"
 							}
 						}
 					],
@@ -831,7 +842,7 @@
 						{
 							"id": "spawn-another-object",
 							"objectClass": "Sprite10",
-							"sid": 985091885856684,
+							"sid": 905220685268207,
 							"parameters": {
 								"object": "Sprite28",
 								"layer": "0",
@@ -848,9 +859,9 @@
 						{
 							"id": "every-x-seconds",
 							"objectClass": "System",
-							"sid": 348326163226535,
+							"sid": 699975910919909,
 							"parameters": {
-								"interval-seconds": "12"
+								"interval-seconds": "14"
 							}
 						}
 					],
@@ -858,7 +869,7 @@
 						{
 							"id": "spawn-another-object",
 							"objectClass": "Sprite11",
-							"sid": 411050840379304,
+							"sid": 362335517924626,
 							"parameters": {
 								"object": "Sprite28",
 								"layer": "0",
@@ -1150,10 +1161,10 @@
 			"actions": [
 				{
 					"id": "set-x",
-					"objectClass": "TiledBackground2",
-					"sid": 501453515752427,
+					"objectClass": "TiledBackground",
+					"sid": 245793731466516,
 					"parameters": {
-						"x": "TiledBackground2.X-bg_speed*dt"
+						"x": "TiledBackground.X-bg_speed*dt"
 					}
 				}
 			],
@@ -1164,8 +1175,8 @@
 			"conditions": [
 				{
 					"id": "compare-x",
-					"objectClass": "TiledBackground2",
-					"sid": 697080747566748,
+					"objectClass": "TiledBackground",
+					"sid": 816594742882833,
 					"parameters": {
 						"comparison": 3,
 						"x-co-ordinate": "-960"
@@ -1175,10 +1186,10 @@
 			"actions": [
 				{
 					"id": "set-x",
-					"objectClass": "TiledBackground2",
-					"sid": 755969491770692,
+					"objectClass": "TiledBackground",
+					"sid": 606426438867454,
 					"parameters": {
-						"x": "TiledBackground2.X+1920"
+						"x": "TiledBackground.X+1920"
 					}
 				}
 			],
@@ -1188,29 +1199,43 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "every-x-seconds",
+					"id": "on-start-of-layout",
 					"objectClass": "System",
-					"sid": 357997920409727,
-					"parameters": {
-						"interval-seconds": "20"
-					}
+					"sid": 476740771934115
 				}
 			],
-			"actions": [
+			"actions": [],
+			"sid": 361027404207750,
+			"children": [
 				{
-					"id": "create-object",
-					"objectClass": "System",
-					"sid": 133194149785299,
-					"parameters": {
-						"object-to-create": "Sprite12",
-						"layer": "0",
-						"x": "random(LayoutWidth)",
-						"y": "random(LayoutHeight)",
-						"create-hierarchy": false
-					}
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "every-x-seconds",
+							"objectClass": "System",
+							"sid": 330653179908573,
+							"parameters": {
+								"interval-seconds": "20"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "create-object",
+							"objectClass": "System",
+							"sid": 294858354158368,
+							"parameters": {
+								"object-to-create": "Sprite12",
+								"layer": "0",
+								"x": "random(LayoutWidth)",
+								"y": "random(LayoutHeight)",
+								"create-hierarchy": false
+							}
+						}
+					],
+					"sid": 759349944348388
 				}
-			],
-			"sid": 361027404207750
+			]
 		},
 		{
 			"eventType": "block",

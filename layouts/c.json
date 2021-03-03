@@ -50,7 +50,7 @@
 				{
 					"type": "Text5",
 					"properties": {
-						"text": "press space to see the epilogue",
+						"text": "Press Space to see the Epilogue",
 						"enable-bbcode": true,
 						"font": "Arial",
 						"size": 12,
@@ -73,8 +73,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 273,
-						"y": 257,
+						"x": 320,
+						"y": 256,
 						"width": 293,
 						"height": 30,
 						"originX": 0,

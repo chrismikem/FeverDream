@@ -55,6 +55,17 @@
 							],
 							"actions": [
 								{
+									"id": "play",
+									"objectClass": "Audio",
+									"sid": 942361474436648,
+									"parameters": {
+										"audio-file": "shooting sound",
+										"loop": "not-looping",
+										"volume": "-10",
+										"tag-optional": "\"\""
+									}
+								},
+								{
 									"id": "spawn-another-object",
 									"objectClass": "Sprite",
 									"sid": 915585926511608,
@@ -562,6 +573,14 @@
 								"instance-variable": "Kills01",
 								"value": "0"
 							}
+						},
+						{
+							"id": "set-progress",
+							"objectClass": "ProgressBar2",
+							"sid": 166412161075725,
+							"parameters": {
+								"value": "Sprite.Health"
+							}
 						}
 					],
 					"sid": 112378913006908
@@ -841,34 +860,7 @@
 						{
 							"id": "every-x-seconds",
 							"objectClass": "System",
-							"sid": 764175375032778,
-							"parameters": {
-								"interval-seconds": "4"
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "spawn-another-object",
-							"objectClass": "Sprite8",
-							"sid": 374999119032696,
-							"parameters": {
-								"object": "Sprite3",
-								"layer": "0",
-								"image-point": "0",
-								"create-hierarchy": false
-							}
-						}
-					],
-					"sid": 147907403158861
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "every-x-seconds",
-							"objectClass": "System",
-							"sid": 367091024202868,
+							"sid": 174265586946375,
 							"parameters": {
 								"interval-seconds": "6"
 							}
@@ -878,7 +870,7 @@
 						{
 							"id": "spawn-another-object",
 							"objectClass": "Sprite9",
-							"sid": 148940264372712,
+							"sid": 662663645766791,
 							"parameters": {
 								"object": "Sprite3",
 								"layer": "0",
@@ -895,7 +887,7 @@
 						{
 							"id": "every-x-seconds",
 							"objectClass": "System",
-							"sid": 571153365097148,
+							"sid": 597862657974068,
 							"parameters": {
 								"interval-seconds": "8"
 							}
@@ -905,7 +897,7 @@
 						{
 							"id": "spawn-another-object",
 							"objectClass": "Sprite10",
-							"sid": 363647280991408,
+							"sid": 678080628709369,
 							"parameters": {
 								"object": "Sprite3",
 								"layer": "0",
@@ -915,33 +907,6 @@
 						}
 					],
 					"sid": 857728967305134
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "every-x-seconds",
-							"objectClass": "System",
-							"sid": 822021309630354,
-							"parameters": {
-								"interval-seconds": "10"
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "spawn-another-object",
-							"objectClass": "Sprite11",
-							"sid": 493461499014046,
-							"parameters": {
-								"object": "Sprite3",
-								"layer": "0",
-								"image-point": "0",
-								"create-hierarchy": false
-							}
-						}
-					],
-					"sid": 359035085096473
 				},
 				{
 					"eventType": "block",
@@ -1160,17 +1125,28 @@
 						{
 							"id": "every-x-seconds",
 							"objectClass": "System",
-							"sid": 238794392705223,
+							"sid": 189631957305263,
 							"parameters": {
-								"interval-seconds": "2"
+								"interval-seconds": "2.5"
 							}
 						}
 					],
 					"actions": [
 						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 122668750506644,
+							"parameters": {
+								"audio-file": "boss shooting",
+								"loop": "not-looping",
+								"volume": "-10",
+								"tag-optional": "\"\""
+							}
+						},
+						{
 							"id": "spawn-another-object",
 							"objectClass": "Sprite13",
-							"sid": 914584908712052,
+							"sid": 583482842464097,
 							"parameters": {
 								"object": "Sprite14",
 								"layer": "0",
@@ -1223,6 +1199,30 @@
 						}
 					],
 					"sid": 824798122320172
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-start-of-layout",
+							"objectClass": "System",
+							"sid": 775598586086294
+						}
+					],
+					"actions": [
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 837100139439497,
+							"parameters": {
+								"audio-file": "boss scream",
+								"loop": "not-looping",
+								"volume": "-10",
+								"tag-optional": "\"\""
+							}
+						}
+					],
+					"sid": 913357525321082
 				}
 			],
 			"sid": 291461555288077
@@ -1442,7 +1442,7 @@
 				{
 					"id": "every-x-seconds",
 					"objectClass": "System",
-					"sid": 173682007508481,
+					"sid": 770094443723043,
 					"parameters": {
 						"interval-seconds": "20"
 					}
@@ -1452,7 +1452,7 @@
 				{
 					"id": "create-object",
 					"objectClass": "System",
-					"sid": 596492782415091,
+					"sid": 734906861607428,
 					"parameters": {
 						"object-to-create": "Sprite12",
 						"layer": "0",

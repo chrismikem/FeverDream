@@ -6,7 +6,7 @@
 			"overriden": 0,
 			"instances": [
 				{
-					"type": "TiledBackground2",
+					"type": "TiledBackground3",
 					"properties": {
 						"initially-visible": true,
 						"origin": "top-left",
@@ -18,14 +18,14 @@
 						"image-scale-y": 1,
 						"image-angle": 0
 					},
-					"uid": 2,
+					"uid": 40,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
 						"x": 0,
 						"y": 0,
 						"width": 960,
-						"height": 540,
+						"height": 544,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -39,7 +39,7 @@
 					}
 				},
 				{
-					"type": "TiledBackground2",
+					"type": "TiledBackground3",
 					"properties": {
 						"initially-visible": true,
 						"origin": "top-left",
@@ -58,7 +58,40 @@
 						"x": 960,
 						"y": 0,
 						"width": 960,
-						"height": 540,
+						"height": 544,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "TiledBackground3",
+					"properties": {
+						"initially-visible": true,
+						"origin": "top-left",
+						"wrap-horizontal": "repeat",
+						"wrap-vertical": "repeat",
+						"image-offset-x": 0,
+						"image-offset-y": 0,
+						"image-scale-x": 1,
+						"image-scale-y": 1,
+						"image-angle": 0
+					},
+					"uid": 2,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 0,
+						"y": 0,
+						"width": 960,
+						"height": 544,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -147,7 +180,7 @@
 						}
 					},
 					"world": {
-						"x": 160,
+						"x": 288,
 						"y": 224,
 						"width": 160,
 						"height": 128,
@@ -305,7 +338,7 @@
 					},
 					"world": {
 						"x": 544,
-						"y": -32.00000000000001,
+						"y": -32,
 						"width": 1120,
 						"height": 32,
 						"originX": 0.5,
