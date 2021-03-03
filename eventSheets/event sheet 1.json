@@ -315,18 +315,9 @@
 								{
 									"id": "wait",
 									"objectClass": "System",
-									"sid": 978162851176124,
+									"sid": 509415249708891,
 									"parameters": {
 										"seconds": "1"
-									}
-								},
-								{
-									"id": "set-animation",
-									"objectClass": "Sprite",
-									"sid": 769070790919841,
-									"parameters": {
-										"animation": "\"Animation 1\"",
-										"from": "beginning"
 									}
 								},
 								{
@@ -336,6 +327,15 @@
 									"behaviorType": "Bullet",
 									"parameters": {
 										"state": "disabled"
+									}
+								},
+								{
+									"id": "set-animation",
+									"objectClass": "Sprite",
+									"sid": 828550951017656,
+									"parameters": {
+										"animation": "\"Animation 1\"",
+										"from": "beginning"
 									}
 								},
 								{
@@ -436,6 +436,32 @@
 							"parameters": {
 								"instance-variable": "Health",
 								"value": "1"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "Sprite",
+							"sid": 218798933048281,
+							"parameters": {
+								"animation": "\"Animation 2\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 175760484514734,
+							"parameters": {
+								"seconds": "2"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "Sprite",
+							"sid": 359039802643336,
+							"parameters": {
+								"animation": "\"Animation 1\"",
+								"from": "beginning"
 							}
 						}
 					],
@@ -610,48 +636,6 @@
 							"sid": 295162694804966
 						}
 					]
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "on-collision-with-another-object",
-							"objectClass": "Sprite",
-							"sid": 783050314530651,
-							"parameters": {
-								"object": "Sprite3"
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "set-animation",
-							"objectClass": "Sprite",
-							"sid": 240837162981280,
-							"parameters": {
-								"animation": "\"Animation 2\"",
-								"from": "beginning"
-							}
-						},
-						{
-							"id": "wait",
-							"objectClass": "System",
-							"sid": 546805821127765,
-							"parameters": {
-								"seconds": "2"
-							}
-						},
-						{
-							"id": "set-animation",
-							"objectClass": "Sprite",
-							"sid": 683010240481247,
-							"parameters": {
-								"animation": "\"Animation 1\"",
-								"from": "beginning"
-							}
-						}
-					],
-					"sid": 898206980696049
 				}
 			],
 			"sid": 728297150896756
@@ -1065,11 +1049,11 @@
 			],
 			"actions": [
 				{
-					"id": "set-text",
-					"objectClass": "Text3",
-					"sid": 308366099420448,
+					"id": "set-progress",
+					"objectClass": "ProgressBar2",
+					"sid": 996737619729172,
 					"parameters": {
-						"text": "Sprite.Health"
+						"value": "Sprite.Health"
 					}
 				},
 				{

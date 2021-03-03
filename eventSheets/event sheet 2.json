@@ -315,18 +315,9 @@
 								{
 									"id": "wait",
 									"objectClass": "System",
-									"sid": 863255025833141,
+									"sid": 383597539527674,
 									"parameters": {
 										"seconds": "1"
-									}
-								},
-								{
-									"id": "set-animation",
-									"objectClass": "Sprite",
-									"sid": 869381440353146,
-									"parameters": {
-										"animation": "\"Animation 1\"",
-										"from": "beginning"
 									}
 								},
 								{
@@ -336,6 +327,15 @@
 									"behaviorType": "Bullet",
 									"parameters": {
 										"state": "disabled"
+									}
+								},
+								{
+									"id": "set-animation",
+									"objectClass": "Sprite",
+									"sid": 630291442920928,
+									"parameters": {
+										"animation": "\"Animation 1\"",
+										"from": "beginning"
 									}
 								},
 								{
@@ -437,6 +437,32 @@
 							"parameters": {
 								"instance-variable": "Health",
 								"value": "1"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "Sprite",
+							"sid": 795162471334136,
+							"parameters": {
+								"animation": "\"Animation 2\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 499825280231484,
+							"parameters": {
+								"seconds": "3"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "Sprite",
+							"sid": 620386441116944,
+							"parameters": {
+								"animation": "\"Animation 1\"",
+								"from": "beginning"
 							}
 						}
 					],
@@ -638,48 +664,6 @@
 					"eventType": "block",
 					"conditions": [
 						{
-							"id": "on-collision-with-another-object",
-							"objectClass": "Sprite",
-							"sid": 957712202854487,
-							"parameters": {
-								"object": "Sprite3"
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "set-animation",
-							"objectClass": "Sprite",
-							"sid": 649869028792913,
-							"parameters": {
-								"animation": "\"Animation 2\"",
-								"from": "beginning"
-							}
-						},
-						{
-							"id": "wait",
-							"objectClass": "System",
-							"sid": 219312122385210,
-							"parameters": {
-								"seconds": "3"
-							}
-						},
-						{
-							"id": "set-animation",
-							"objectClass": "Sprite",
-							"sid": 801799569093370,
-							"parameters": {
-								"animation": "\"Animation 1\"",
-								"from": "beginning"
-							}
-						}
-					],
-					"sid": 725603126661919
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
 							"id": "is-animation-playing",
 							"objectClass": "Sprite",
 							"sid": 538282239690993,
@@ -713,48 +697,6 @@
 							"sid": 474519772284145
 						}
 					]
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "on-collision-with-another-object",
-							"objectClass": "Sprite",
-							"sid": 926702420921744,
-							"parameters": {
-								"object": "Sprite28"
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "set-animation",
-							"objectClass": "Sprite",
-							"sid": 950256993605339,
-							"parameters": {
-								"animation": "\"Animation 2\"",
-								"from": "beginning"
-							}
-						},
-						{
-							"id": "wait",
-							"objectClass": "System",
-							"sid": 585534858268740,
-							"parameters": {
-								"seconds": "3"
-							}
-						},
-						{
-							"id": "set-animation",
-							"objectClass": "Sprite",
-							"sid": 817135641236781,
-							"parameters": {
-								"animation": "\"Animation 1\"",
-								"from": "beginning"
-							}
-						}
-					],
-					"sid": 281382803818313
 				}
 			],
 			"sid": 428018772419662
@@ -1144,6 +1086,32 @@
 							"parameters": {
 								"instance-variable": "Health",
 								"value": "1"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "Sprite",
+							"sid": 892476563828353,
+							"parameters": {
+								"animation": "\"Animation 2\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 775361873023105,
+							"parameters": {
+								"seconds": "3"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "Sprite",
+							"sid": 125871922588236,
+							"parameters": {
+								"animation": "\"Animation 1\"",
+								"from": "beginning"
 							}
 						}
 					],

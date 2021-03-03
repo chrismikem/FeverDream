@@ -315,18 +315,9 @@
 								{
 									"id": "wait",
 									"objectClass": "System",
-									"sid": 137542292115155,
+									"sid": 778993566212428,
 									"parameters": {
 										"seconds": "1"
-									}
-								},
-								{
-									"id": "set-animation",
-									"objectClass": "Sprite",
-									"sid": 814023168253260,
-									"parameters": {
-										"animation": "\"Animation 1\"",
-										"from": "beginning"
 									}
 								},
 								{
@@ -336,6 +327,15 @@
 									"behaviorType": "Bullet",
 									"parameters": {
 										"state": "disabled"
+									}
+								},
+								{
+									"id": "set-animation",
+									"objectClass": "Sprite",
+									"sid": 242781713383607,
+									"parameters": {
+										"animation": "\"Animation 1\"",
+										"from": "beginning"
 									}
 								},
 								{
@@ -713,9 +713,9 @@
 						{
 							"id": "wait",
 							"objectClass": "System",
-							"sid": 362511345707897,
+							"sid": 450981353899258,
 							"parameters": {
-								"seconds": "3"
+								"seconds": "4"
 							}
 						},
 						{
@@ -755,9 +755,9 @@
 						{
 							"id": "wait",
 							"objectClass": "System",
-							"sid": 951767740824171,
+							"sid": 158415527854153,
 							"parameters": {
-								"seconds": "3"
+								"seconds": "4"
 							}
 						},
 						{
@@ -989,9 +989,9 @@
 								{
 									"id": "is-animation-playing",
 									"objectClass": "Sprite",
-									"sid": 338025035872532,
+									"sid": 853725817829664,
 									"parameters": {
-										"animation": "\"Animation 2\""
+										"animation": "\"Animation 3\""
 									}
 								}
 							],
@@ -1160,9 +1160,9 @@
 						{
 							"id": "every-x-seconds",
 							"objectClass": "System",
-							"sid": 771038220016113,
+							"sid": 238794392705223,
 							"parameters": {
-								"interval-seconds": "3"
+								"interval-seconds": "2"
 							}
 						}
 					],
@@ -1361,11 +1361,11 @@
 			],
 			"actions": [
 				{
-					"id": "set-text",
-					"objectClass": "Text3",
-					"sid": 899002049914982,
+					"id": "set-progress",
+					"objectClass": "ProgressBar2",
+					"sid": 294532282889923,
 					"parameters": {
-						"text": "Sprite.Health"
+						"value": "Sprite.Health"
 					}
 				},
 				{

@@ -147,9 +147,9 @@
 						}
 					},
 					"world": {
-						"x": 282.2857142857143,
-						"y": 230.0952380952381,
-						"width": 189.1252955082742,
+						"x": 160,
+						"y": 224,
+						"width": 160,
 						"height": 128,
 						"originX": 0.5,
 						"originY": 0.5,
@@ -446,48 +446,6 @@
 			"overriden": 0,
 			"instances": [
 				{
-					"type": "Text3",
-					"properties": {
-						"text": "Text",
-						"enable-bbcode": true,
-						"font": "Arial",
-						"size": 20,
-						"line-height": 0,
-						"bold": false,
-						"italic": false,
-						"color": [
-							0.00784313725490196,
-							0.9686274509803922,
-							0.043137254901960784,
-							1
-						],
-						"horizontal-alignment": "left",
-						"vertical-alignment": "top",
-						"wrapping": "word",
-						"initially-visible": true,
-						"origin": "top-left"
-					},
-					"uid": 55,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 64,
-						"y": 32,
-						"width": 64,
-						"height": 32,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
 					"type": "ProgressBar",
 					"properties": {
 						"value": 0,
@@ -519,8 +477,8 @@
 				{
 					"type": "ProgressBar2",
 					"properties": {
-						"value": 0,
-						"maximum": 100,
+						"value": 5,
+						"maximum": 5,
 						"tooltip": "",
 						"initially-visible": true,
 						"id": ""
