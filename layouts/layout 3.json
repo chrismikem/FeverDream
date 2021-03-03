@@ -66,7 +66,7 @@
 				{
 					"type": "Text10",
 					"properties": {
-						"text": ",one day michael an average person at best is chosen by the evil corporate leader of the G.O.D nathan maelstrom, as he wanted michael to be his first test subject for his global project ,project fever.a project that would put humans though their own personal nightmares based on their dreams.",
+						"text": "...one day, Michael, an average person at best is chosen by the evil corporate leader of the G.O.D Nathan Maelstrom, as he wanted Michael to be his first test subject for his global project ,Project Fever. A project that would put humans though their own personal nightmares based on their dreams.",
 						"enable-bbcode": true,
 						"font": "Consolas",
 						"size": 12,
@@ -92,7 +92,7 @@
 						"x": 21,
 						"y": 367,
 						"width": 574,
-						"height": 81,
+						"height": 100,
 						"originX": 0,
 						"originY": 0,
 						"color": [
