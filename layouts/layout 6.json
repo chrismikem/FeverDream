@@ -66,7 +66,7 @@
 				{
 					"type": "Text14",
 					"properties": {
-						"text": "to some sort of psycho world based on his own dreams. Trapped by a malevolent comical evil show host Gegad, of the G.O.D (government of dreams) the problem with this situation? Michael is trapped in a skunk suit! Now Michael must defeat the hordes of crazy enemies with your new skunk powers on your way....",
+						"text": "to some sort of psycho world based on his own dreams. ",
 						"enable-bbcode": true,
 						"font": "Consolas",
 						"size": 12,
@@ -92,7 +92,7 @@
 						"x": 27,
 						"y": 455,
 						"width": 578,
-						"height": 86,
+						"height": 30,
 						"originX": 0,
 						"originY": 0,
 						"color": [

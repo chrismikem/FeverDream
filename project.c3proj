@@ -1,6 +1,6 @@
 {
 	"projectFormatVersion": 1,
-	"savedWithRelease": 23404,
+	"savedWithRelease": 24100,
 	"name": "New project",
 	"runtime": "c3",
 	"useWorker": "auto",
@@ -11,7 +11,7 @@
 			"id": "Sprite",
 			"name": "Sprite",
 			"author": "Scirra",
-			"version": "r234.4",
+			"version": "r241",
 			"bundled": false
 		},
 		{
@@ -19,7 +19,7 @@
 			"id": "Keyboard",
 			"name": "Keyboard",
 			"author": "Scirra",
-			"version": "r234.4",
+			"version": "r241",
 			"bundled": false
 		},
 		{
@@ -27,7 +27,7 @@
 			"id": "Text",
 			"name": "Text",
 			"author": "Scirra",
-			"version": "r234.4",
+			"version": "r241",
 			"bundled": false
 		},
 		{
@@ -35,7 +35,7 @@
 			"id": "TiledBg",
 			"name": "Tiled Background",
 			"author": "Scirra",
-			"version": "r234.4",
+			"version": "r241",
 			"bundled": false
 		},
 		{
@@ -43,7 +43,7 @@
 			"id": "Particles",
 			"name": "Particles",
 			"author": "Scirra",
-			"version": "r234.4",
+			"version": "r241",
 			"bundled": false
 		},
 		{
@@ -51,7 +51,7 @@
 			"id": "Audio",
 			"name": "Audio",
 			"author": "Scirra",
-			"version": "r234.4",
+			"version": "r241",
 			"bundled": false
 		},
 		{
@@ -59,7 +59,7 @@
 			"id": "TextBox",
 			"name": "Text input",
 			"author": "Scirra",
-			"version": "r234.4",
+			"version": "r241",
 			"bundled": false
 		},
 		{
@@ -67,7 +67,7 @@
 			"id": "progressbar",
 			"name": "Progress bar",
 			"author": "Scirra",
-			"version": "r234.4",
+			"version": "r241",
 			"bundled": false
 		},
 		{
@@ -75,7 +75,7 @@
 			"id": "EightDir",
 			"name": "8 Direction",
 			"author": "Scirra",
-			"version": "r234.4",
+			"version": "r241",
 			"bundled": false
 		},
 		{
@@ -83,7 +83,7 @@
 			"id": "scrollto",
 			"name": "Scroll To",
 			"author": "Scirra",
-			"version": "r234.4",
+			"version": "r241",
 			"bundled": false
 		},
 		{
@@ -91,7 +91,7 @@
 			"id": "Bullet",
 			"name": "Bullet",
 			"author": "Scirra",
-			"version": "r234.4",
+			"version": "r241",
 			"bundled": false
 		},
 		{
@@ -99,7 +99,7 @@
 			"id": "LOS",
 			"name": "Line of sight",
 			"author": "Scirra",
-			"version": "r234.4",
+			"version": "r241",
 			"bundled": false
 		},
 		{
@@ -107,7 +107,7 @@
 			"id": "solid",
 			"name": "Solid",
 			"author": "Scirra",
-			"version": "r234.4",
+			"version": "r241",
 			"bundled": false
 		},
 		{
@@ -115,7 +115,7 @@
 			"id": "jumpthru",
 			"name": "Jump-thru",
 			"author": "Scirra",
-			"version": "r234.4",
+			"version": "r241",
 			"bundled": false
 		}
 	],
@@ -194,7 +194,28 @@
 			"Text22",
 			"Text23",
 			"TiledBackground",
-			"TiledBackground3"
+			"TiledBackground3",
+			"Sprite29",
+			"text1",
+			"Text24",
+			"Text25",
+			"Text26",
+			"Sprite41",
+			"Sprite42",
+			"Text27",
+			"Sprite43",
+			"Sprite44",
+			"Text28",
+			"Sprite45",
+			"Sprite46",
+			"Text29",
+			"Sprite47",
+			"Sprite48",
+			"Text30",
+			"Sprite49",
+			"Text31",
+			"Sprite50",
+			"Text32"
 		],
 		"subfolders": []
 	},
@@ -210,9 +231,14 @@
 			"Layout 1",
 			"Layout 2",
 			"Layout 3",
+			"Layout 12",
+			"Layout 13",
 			"Layout 4",
 			"Layout 5",
 			"Layout 6",
+			"Layout 14",
+			"Layout 15",
+			"Layout 16",
 			"Layout 7",
 			"Level01",
 			"Next02",
