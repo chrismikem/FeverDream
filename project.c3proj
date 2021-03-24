@@ -301,6 +301,16 @@
 					"name": "boss scream.webm",
 					"type": "audio/webm; codecs=opus",
 					"sid": 293049012657914
+				},
+				{
+					"name": "enter portal.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 342115077317043
+				},
+				{
+					"name": "portal.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 498287551332515
 				}
 			],
 			"subfolders": []
