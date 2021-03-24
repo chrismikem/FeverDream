@@ -205,20 +205,20 @@
 					],
 					"actions": [
 						{
+							"id": "set-mirrored",
+							"objectClass": "Sprite",
+							"sid": 813150159523720,
+							"parameters": {
+								"state": "mirrored"
+							}
+						},
+						{
 							"id": "set-instvar-value",
 							"objectClass": "Sprite",
 							"sid": 202199390693103,
 							"parameters": {
 								"instance-variable": "shooting_dir",
 								"value": "180"
-							}
-						},
-						{
-							"id": "set-mirrored",
-							"objectClass": "Sprite",
-							"sid": 336818816392963,
-							"parameters": {
-								"state": "mirrored"
 							}
 						}
 					],
@@ -238,20 +238,20 @@
 					],
 					"actions": [
 						{
+							"id": "set-mirrored",
+							"objectClass": "Sprite",
+							"sid": 568706128197025,
+							"parameters": {
+								"state": "not-mirrored"
+							}
+						},
+						{
 							"id": "set-instvar-value",
 							"objectClass": "Sprite",
 							"sid": 644489305173240,
 							"parameters": {
 								"instance-variable": "shooting_dir",
 								"value": "0"
-							}
-						},
-						{
-							"id": "set-mirrored",
-							"objectClass": "Sprite",
-							"sid": 675675894859934,
-							"parameters": {
-								"state": "not-mirrored"
 							}
 						}
 					],
