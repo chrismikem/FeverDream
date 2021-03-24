@@ -1,12 +1,12 @@
 {
-	"name": "Layout 3",
+	"name": "Layout 13",
 	"layers": [
 		{
 			"name": "Layer 0",
 			"overriden": 0,
 			"instances": [
 				{
-					"type": "Sprite18",
+					"type": "Sprite43",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -14,13 +14,13 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 68,
+					"uid": 109,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 302,
-						"y": 234,
-						"width": 596,
+						"x": 255,
+						"y": 313,
+						"width": 506,
 						"height": 453,
 						"originX": 0.5,
 						"originY": 0.5,
@@ -35,7 +35,7 @@
 					}
 				},
 				{
-					"type": "Sprite19",
+					"type": "Sprite44",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -43,14 +43,14 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 69,
+					"uid": 110,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 304,
-						"y": 403,
-						"width": 598,
-						"height": 112,
+						"x": 253.5,
+						"y": 489.5,
+						"width": 491,
+						"height": 99,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -64,9 +64,9 @@
 					}
 				},
 				{
-					"type": "Text10",
+					"type": "Text28",
 					"properties": {
-						"text": "...one day, Michael, an average person at best is chosen by the evil corporate leader of the G.O.D Nathan Maelstrom. ",
+						"text": "A project that would put humans though their own personal nightmares based on their dreams.",
 						"enable-bbcode": true,
 						"font": "Consolas",
 						"size": 12,
@@ -74,9 +74,9 @@
 						"bold": false,
 						"italic": false,
 						"color": [
-							0.9803921568627451,
-							0.9607843137254902,
-							0.9607843137254902,
+							1,
+							1,
+							1,
 							1
 						],
 						"horizontal-alignment": "left",
@@ -85,14 +85,14 @@
 						"initially-visible": true,
 						"origin": "top-left"
 					},
-					"uid": 70,
+					"uid": 111,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 21,
-						"y": 367,
-						"width": 574,
-						"height": 100,
+						"x": 26,
+						"y": 454,
+						"width": 449,
+						"height": 59,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -106,7 +106,7 @@
 					}
 				}
 			],
-			"sid": 866138397969748,
+			"sid": 438205095773883,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
 			"color": [
@@ -131,10 +131,10 @@
 			"global": false
 		}
 	],
-	"sid": 681611589303930,
+	"sid": 464770782434589,
 	"nonworld-instances": [],
 	"effectTypes": [],
-	"width": 596,
+	"width": 509,
 	"height": 1080,
 	"unboundedScrolling": false,
 	"eventSheet": "Start"

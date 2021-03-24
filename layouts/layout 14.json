@@ -1,12 +1,12 @@
 {
-	"name": "Layout 3",
+	"name": "Layout 14",
 	"layers": [
 		{
 			"name": "Layer 0",
 			"overriden": 0,
 			"instances": [
 				{
-					"type": "Sprite18",
+					"type": "Sprite45",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -14,14 +14,14 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 68,
+					"uid": 112,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 302,
-						"y": 234,
-						"width": 596,
-						"height": 453,
+						"x": 305,
+						"y": 270.5,
+						"width": 606,
+						"height": 536,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -35,7 +35,7 @@
 					}
 				},
 				{
-					"type": "Sprite19",
+					"type": "Sprite46",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -43,14 +43,14 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 69,
+					"uid": 113,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 304,
-						"y": 403,
-						"width": 598,
-						"height": 112,
+						"x": 305,
+						"y": 483,
+						"width": 575,
+						"height": 101,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -64,9 +64,9 @@
 					}
 				},
 				{
-					"type": "Text10",
+					"type": "Text29",
 					"properties": {
-						"text": "...one day, Michael, an average person at best is chosen by the evil corporate leader of the G.O.D Nathan Maelstrom. ",
+						"text": "Trapped by a malevolent comical evil show host Gegad, of the G.O.D (government of dreams)",
 						"enable-bbcode": true,
 						"font": "Consolas",
 						"size": 12,
@@ -74,9 +74,9 @@
 						"bold": false,
 						"italic": false,
 						"color": [
-							0.9803921568627451,
-							0.9607843137254902,
-							0.9607843137254902,
+							1,
+							1,
+							1,
 							1
 						],
 						"horizontal-alignment": "left",
@@ -85,14 +85,14 @@
 						"initially-visible": true,
 						"origin": "top-left"
 					},
-					"uid": 70,
+					"uid": 114,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 21,
-						"y": 367,
-						"width": 574,
-						"height": 100,
+						"x": 26,
+						"y": 440,
+						"width": 524.960039805838,
+						"height": 50.996958205154684,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -101,12 +101,12 @@
 							1,
 							1
 						],
-						"angle": 0,
+						"angle": 6.280234908911865,
 						"zElevation": 0
 					}
 				}
 			],
-			"sid": 866138397969748,
+			"sid": 498227766577633,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
 			"color": [
@@ -131,10 +131,10 @@
 			"global": false
 		}
 	],
-	"sid": 681611589303930,
+	"sid": 795204336030458,
 	"nonworld-instances": [],
 	"effectTypes": [],
-	"width": 596,
+	"width": 606,
 	"height": 1080,
 	"unboundedScrolling": false,
 	"eventSheet": "Start"

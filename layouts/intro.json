@@ -6,37 +6,24 @@
 			"overriden": 0,
 			"instances": [
 				{
-					"type": "Text",
+					"type": "Sprite29",
 					"properties": {
-						"text": "Fever Dream",
-						"enable-bbcode": true,
-						"font": "Comic Sans MS",
-						"size": 80,
-						"line-height": 0,
-						"bold": false,
-						"italic": false,
-						"color": [
-							0,
-							0,
-							0,
-							1
-						],
-						"horizontal-alignment": "left",
-						"vertical-alignment": "top",
-						"wrapping": "word",
 						"initially-visible": true,
-						"origin": "top-left"
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
 					},
 					"uid": 13,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 320,
-						"y": 64,
-						"width": 512,
-						"height": 256,
-						"originX": 0,
-						"originY": 0,
+						"x": 480,
+						"y": 271.5,
+						"width": 958,
+						"height": 539,
+						"originX": 0.5,
+						"originY": 0.5,
 						"color": [
 							1,
 							1,
@@ -48,9 +35,9 @@
 					}
 				},
 				{
-					"type": "Text2",
+					"type": "text1",
 					"properties": {
-						"text": "Move with WASD        Attack with Left/Right Arrows               \nDash with Up Arrow             Press Spacebar to Start",
+						"text": "press spacebar to start",
 						"enable-bbcode": true,
 						"font": "Comic Sans MS",
 						"size": 12,
@@ -73,10 +60,136 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 320,
-						"y": 320,
-						"width": 192,
-						"height": 192,
+						"x": 414,
+						"y": 344,
+						"width": 128,
+						"height": 45,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Text24",
+					"properties": {
+						"text": "wasd to move",
+						"enable-bbcode": true,
+						"font": "Comic Sans MS",
+						"size": 12,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							0,
+							0,
+							0,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 55,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 399,
+						"y": 433,
+						"width": 108,
+						"height": 24,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Text25",
+					"properties": {
+						"text": "left and right to shoot",
+						"enable-bbcode": true,
+						"font": "Comic Sans MS",
+						"size": 12,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							0,
+							0,
+							0,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 104,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 395,
+						"y": 455,
+						"width": 181,
+						"height": 30,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Text26",
+					"properties": {
+						"text": "up arrow to attack with a fart",
+						"enable-bbcode": true,
+						"font": "Comic Sans MS",
+						"size": 12,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							0,
+							0,
+							0,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 105,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 392,
+						"y": 475,
+						"width": 231,
+						"height": 30,
 						"originX": 0,
 						"originY": 0,
 						"color": [
