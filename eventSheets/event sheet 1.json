@@ -22,79 +22,6 @@
 					"eventType": "block",
 					"conditions": [
 						{
-							"id": "on-key-pressed",
-							"objectClass": "Keyboard",
-							"sid": 204936788558494,
-							"parameters": {
-								"key": 39
-							}
-						},
-						{
-							"id": "on-key-pressed",
-							"objectClass": "Keyboard",
-							"sid": 673018622841830,
-							"parameters": {
-								"key": 37
-							}
-						}
-					],
-					"actions": [],
-					"sid": 889898768340973,
-					"children": [
-						{
-							"eventType": "block",
-							"conditions": [
-								{
-									"id": "every-x-seconds",
-									"objectClass": "System",
-									"sid": 779777488946138,
-									"parameters": {
-										"interval-seconds": "0.4"
-									}
-								}
-							],
-							"actions": [
-								{
-									"id": "play",
-									"objectClass": "Audio",
-									"sid": 897035317674238,
-									"parameters": {
-										"audio-file": "shooting sound",
-										"loop": "not-looping",
-										"volume": "-10",
-										"tag-optional": "\"\""
-									}
-								},
-								{
-									"id": "spawn-another-object",
-									"objectClass": "Sprite",
-									"sid": 708114176223062,
-									"parameters": {
-										"object": "Sprite2",
-										"layer": "0",
-										"image-point": "0",
-										"create-hierarchy": false
-									}
-								},
-								{
-									"id": "set-angle-of-motion",
-									"objectClass": "Sprite2",
-									"sid": 601968980454756,
-									"behaviorType": "Bullet",
-									"parameters": {
-										"angle": "Sprite.shooting_dir"
-									}
-								}
-							],
-							"sid": 388604722840298
-						}
-					],
-					"isOrBlock": true
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
 							"id": "key-is-down",
 							"objectClass": "Keyboard",
 							"sid": 713844546450744,
@@ -211,15 +138,6 @@
 							"parameters": {
 								"state": "mirrored"
 							}
-						},
-						{
-							"id": "set-instvar-value",
-							"objectClass": "Sprite",
-							"sid": 202199390693103,
-							"parameters": {
-								"instance-variable": "shooting_dir",
-								"value": "180"
-							}
 						}
 					],
 					"sid": 537313965573349
@@ -244,18 +162,82 @@
 							"parameters": {
 								"state": "not-mirrored"
 							}
-						},
-						{
-							"id": "set-instvar-value",
-							"objectClass": "Sprite",
-							"sid": 644489305173240,
-							"parameters": {
-								"instance-variable": "shooting_dir",
-								"value": "0"
-							}
 						}
 					],
 					"sid": 416809706423808
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-key-pressed",
+							"objectClass": "Keyboard",
+							"sid": 471379641822791,
+							"parameters": {
+								"key": 39
+							}
+						},
+						{
+							"id": "on-key-pressed",
+							"objectClass": "Keyboard",
+							"sid": 970771740415564,
+							"parameters": {
+								"key": 37
+							}
+						}
+					],
+					"actions": [],
+					"sid": 574439384224401,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "every-x-seconds",
+									"objectClass": "System",
+									"sid": 725023321664467,
+									"parameters": {
+										"interval-seconds": "0.4"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "play",
+									"objectClass": "Audio",
+									"sid": 601758180863437,
+									"parameters": {
+										"audio-file": "shooting sound",
+										"loop": "not-looping",
+										"volume": "-10",
+										"tag-optional": "\"\""
+									}
+								},
+								{
+									"id": "spawn-another-object",
+									"objectClass": "Sprite",
+									"sid": 644907658952645,
+									"parameters": {
+										"object": "Sprite2",
+										"layer": "0",
+										"image-point": "0",
+										"create-hierarchy": false
+									}
+								},
+								{
+									"id": "set-angle-of-motion",
+									"objectClass": "Sprite2",
+									"sid": 526916991046681,
+									"behaviorType": "Bullet",
+									"parameters": {
+										"angle": "Sprite.shooting_dir"
+									}
+								}
+							],
+							"sid": 616794749220806
+						}
+					],
+					"isOrBlock": true
 				},
 				{
 					"eventType": "block",
@@ -382,6 +364,15 @@
 							"parameters": {
 								"angle": "0"
 							}
+						},
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Sprite",
+							"sid": 187273527131830,
+							"parameters": {
+								"instance-variable": "shooting_dir",
+								"value": "0"
+							}
 						}
 					],
 					"sid": 216614791770675
@@ -403,6 +394,15 @@
 							"behaviorType": "Bullet",
 							"parameters": {
 								"angle": "180"
+							}
+						},
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Sprite",
+							"sid": 764837472839602,
+							"parameters": {
+								"instance-variable": "shooting_dir",
+								"value": "180"
 							}
 						}
 					],
@@ -544,12 +544,12 @@
 						{
 							"id": "create-object",
 							"objectClass": "System",
-							"sid": 257080245807379,
+							"sid": 746229538374068,
 							"parameters": {
 								"object-to-create": "Sprite7",
 								"layer": "0",
-								"x": "512",
-								"y": "253",
+								"x": "832",
+								"y": "256",
 								"create-hierarchy": false
 							}
 						}
