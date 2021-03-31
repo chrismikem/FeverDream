@@ -39,7 +39,7 @@
 					"properties": {
 						"text": "press spacebar to start",
 						"enable-bbcode": true,
-						"font": "Comic Sans MS",
+						"font": "IndieFlower-Regular",
 						"size": 12,
 						"line-height": 0,
 						"bold": false,
@@ -81,7 +81,7 @@
 					"properties": {
 						"text": "wasd to move",
 						"enable-bbcode": true,
-						"font": "Comic Sans MS",
+						"font": "IndieFlower-Regular",
 						"size": 12,
 						"line-height": 0,
 						"bold": false,
@@ -123,7 +123,7 @@
 					"properties": {
 						"text": "left and right to shoot",
 						"enable-bbcode": true,
-						"font": "Comic Sans MS",
+						"font": "IndieFlower-Regular",
 						"size": 12,
 						"line-height": 0,
 						"bold": false,
@@ -165,7 +165,7 @@
 					"properties": {
 						"text": "up arrow to attack with a fart",
 						"enable-bbcode": true,
-						"font": "Comic Sans MS",
+						"font": "IndieFlower-Regular",
 						"size": 12,
 						"line-height": 0,
 						"bold": false,

@@ -224,7 +224,9 @@
 	"autosaveData": null,
 	"containers": [],
 	"families": {
-		"items": [],
+		"items": [
+			"Family1"
+		],
 		"subfolders": []
 	},
 	"layouts": {
@@ -332,7 +334,13 @@
 			"subfolders": []
 		},
 		"font": {
-			"items": [],
+			"items": [
+				{
+					"name": "IndieFlower-Regular.ttf",
+					"type": "application/font-sfnt",
+					"sid": 804779381472625
+				}
+			],
 			"subfolders": []
 		},
 		"icon": {

@@ -10,7 +10,7 @@
 					"properties": {
 						"text": "Press Spacebar to continue",
 						"enable-bbcode": true,
-						"font": "Comic Sans MS",
+						"font": "IndieFlower-Regular",
 						"size": 12,
 						"line-height": 0,
 						"bold": false,
@@ -110,7 +110,7 @@
 					"properties": {
 						"text": "The G.O.D (Government of Dreams) are a secret organization....",
 						"enable-bbcode": true,
-						"font": "Consolas",
+						"font": "IndieFlower-Regular",
 						"size": 12,
 						"line-height": 0,
 						"bold": false,
