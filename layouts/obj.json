@@ -61,7 +61,8 @@
 						"dash": 0,
 						"Health": 5,
 						"Kills01": 10,
-						"Kills02": 20
+						"Kills02": 20,
+						"Shots": 10
 					},
 					"behaviors": {
 						"8Direction": {
@@ -214,10 +215,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 288,
-						"y": 480,
-						"width": 64,
-						"height": 64,
+						"x": 320,
+						"y": 496,
+						"width": 256,
+						"height": 192,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
