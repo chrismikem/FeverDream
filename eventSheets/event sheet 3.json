@@ -1549,39 +1549,48 @@
 					"parameters": {
 						"object": "Sprite14"
 					}
-				},
-				{
-					"id": "is-animation-playing",
-					"objectClass": "Sprite",
-					"sid": 997137055613533,
-					"parameters": {
-						"animation": "\"Animation 1\""
-					}
 				}
 			],
-			"actions": [
+			"actions": [],
+			"sid": 506598416546850,
+			"children": [
 				{
-					"id": "play",
-					"objectClass": "Audio",
-					"sid": 696800292705617,
-					"parameters": {
-						"audio-file": "Hit_hurt 18",
-						"loop": "not-looping",
-						"volume": "-20",
-						"tag-optional": "\"\""
-					}
-				},
-				{
-					"id": "subtract-from-instvar",
-					"objectClass": "Sprite",
-					"sid": 350128290479192,
-					"parameters": {
-						"instance-variable": "Health",
-						"value": "1"
-					}
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-animation-playing",
+							"objectClass": "Sprite",
+							"sid": 694780740081617,
+							"parameters": {
+								"animation": "\"Animation 1\""
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 734436482310199,
+							"parameters": {
+								"audio-file": "Hit_hurt 18",
+								"loop": "not-looping",
+								"volume": "-20",
+								"tag-optional": "\"\""
+							}
+						},
+						{
+							"id": "subtract-from-instvar",
+							"objectClass": "Sprite",
+							"sid": 287864021242320,
+							"parameters": {
+								"instance-variable": "Health",
+								"value": "1"
+							}
+						}
+					],
+					"sid": 601553098799150
 				}
-			],
-			"sid": 506598416546850
+			]
 		},
 		{
 			"eventType": "block",
@@ -1593,39 +1602,48 @@
 					"parameters": {
 						"object": "Sprite13"
 					}
-				},
-				{
-					"id": "is-animation-playing",
-					"objectClass": "Sprite",
-					"sid": 719485488887175,
-					"parameters": {
-						"animation": "\"Animation 1\""
-					}
 				}
 			],
-			"actions": [
+			"actions": [],
+			"sid": 418296235128677,
+			"children": [
 				{
-					"id": "play",
-					"objectClass": "Audio",
-					"sid": 735956176588544,
-					"parameters": {
-						"audio-file": "Hit_hurt 18",
-						"loop": "not-looping",
-						"volume": "-20",
-						"tag-optional": "\"\""
-					}
-				},
-				{
-					"id": "subtract-from-instvar",
-					"objectClass": "Sprite",
-					"sid": 583760255969376,
-					"parameters": {
-						"instance-variable": "Health",
-						"value": "1"
-					}
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-animation-playing",
+							"objectClass": "Sprite",
+							"sid": 708091321103340,
+							"parameters": {
+								"animation": "\"Animation 1\""
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 799219304860193,
+							"parameters": {
+								"audio-file": "Hit_hurt 18",
+								"loop": "not-looping",
+								"volume": "-20",
+								"tag-optional": "\"\""
+							}
+						},
+						{
+							"id": "subtract-from-instvar",
+							"objectClass": "Sprite",
+							"sid": 590702567844087,
+							"parameters": {
+								"instance-variable": "Health",
+								"value": "1"
+							}
+						}
+					],
+					"sid": 893418325891056
 				}
-			],
-			"sid": 418296235128677
+			]
 		},
 		{
 			"eventType": "block",
