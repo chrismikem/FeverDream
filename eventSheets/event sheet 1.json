@@ -506,9 +506,9 @@
 						{
 							"id": "go-to-layout-by-name",
 							"objectClass": "System",
-							"sid": 376520102660206,
+							"sid": 442839258755542,
 							"parameters": {
-								"layout": "\"Next02\""
+								"layout": "\"Level02\""
 							}
 						}
 					],
@@ -976,7 +976,7 @@
 								{
 									"id": "spawn-another-object",
 									"objectClass": "Sprite11",
-									"sid": 245533002805691,
+									"sid": 570094965477569,
 									"parameters": {
 										"object": "Sprite3",
 										"layer": "0",
@@ -1162,11 +1162,11 @@
 					}
 				},
 				{
-					"id": "set-text",
-					"objectClass": "Text16",
-					"sid": 239793387702983,
+					"id": "set-width",
+					"objectClass": "Sprite52",
+					"sid": 737440780170963,
 					"parameters": {
-						"text": "Sprite.Kills01"
+						"width": "192*(Sprite.Shots/10)"
 					}
 				}
 			],
@@ -1265,10 +1265,10 @@
 			"actions": [
 				{
 					"id": "set-text",
-					"objectClass": "Text34",
-					"sid": 577827321716669,
+					"objectClass": "Text16",
+					"sid": 490750084969476,
 					"parameters": {
-						"text": "Sprite.Shots"
+						"text": "Sprite.Kills01"
 					}
 				}
 			],
@@ -1280,10 +1280,10 @@
 				{
 					"id": "compare-instance-variable",
 					"objectClass": "Sprite",
-					"sid": 158264497546029,
+					"sid": 849198181368125,
 					"parameters": {
 						"instance-variable": "Shots",
-						"comparison": 3,
+						"comparison": 2,
 						"value": "0"
 					}
 				}

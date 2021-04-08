@@ -1656,11 +1656,11 @@
 			],
 			"actions": [
 				{
-					"id": "set-text",
-					"objectClass": "Text34",
-					"sid": 371380200631408,
+					"id": "set-width",
+					"objectClass": "Sprite52",
+					"sid": 704452880284888,
 					"parameters": {
-						"text": "Sprite.Shots"
+						"width": "192*(Sprite.Shots/10)"
 					}
 				}
 			],
@@ -1672,10 +1672,10 @@
 				{
 					"id": "compare-instance-variable",
 					"objectClass": "Sprite",
-					"sid": 801207757238935,
+					"sid": 645237825634830,
 					"parameters": {
 						"instance-variable": "Shots",
-						"comparison": 3,
+						"comparison": 2,
 						"value": "0"
 					}
 				}

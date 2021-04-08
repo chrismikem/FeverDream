@@ -505,11 +505,11 @@
 							"sid": 680985288345509
 						},
 						{
-							"id": "go-to-nextprevious-layout",
+							"id": "go-to-layout-by-name",
 							"objectClass": "System",
-							"sid": 448980809420650,
+							"sid": 316980307801924,
 							"parameters": {
-								"which": "next"
+								"layout": "\"Level03\""
 							}
 						}
 					],
@@ -1409,11 +1409,11 @@
 					}
 				},
 				{
-					"id": "set-text",
-					"objectClass": "Text16",
-					"sid": 907711693846247,
+					"id": "set-width",
+					"objectClass": "Sprite52",
+					"sid": 626015551856562,
 					"parameters": {
-						"text": "Sprite.Kills02"
+						"width": "192*(Sprite.Shots/10)"
 					}
 				}
 			],
@@ -1488,10 +1488,10 @@
 			"actions": [
 				{
 					"id": "set-text",
-					"objectClass": "Text34",
-					"sid": 796300605228913,
+					"objectClass": "Text16",
+					"sid": 727799116159726,
 					"parameters": {
-						"text": "Sprite.Shots"
+						"text": "Sprite.Kills02"
 					}
 				}
 			],
@@ -1503,10 +1503,10 @@
 				{
 					"id": "compare-instance-variable",
 					"objectClass": "Sprite",
-					"sid": 115987955494684,
+					"sid": 772696889048247,
 					"parameters": {
 						"instance-variable": "Shots",
-						"comparison": 3,
+						"comparison": 2,
 						"value": "0"
 					}
 				}

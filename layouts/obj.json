@@ -243,10 +243,10 @@
 						"size": 32,
 						"opacity": 100,
 						"grow-rate": 0,
-						"x-randomiser": 0,
-						"y-randomiser": 0,
+						"x-randomiser": 10,
+						"y-randomiser": 10,
 						"initial-speed-randomiser": 0,
-						"size-randomiser": 0,
+						"size-randomiser": 10,
 						"grow-rate-randomiser": 0,
 						"acceleration": -150,
 						"gravity": 0,
@@ -507,6 +507,37 @@
 						"width": 128,
 						"height": 128,
 						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Sprite52",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 124,
+					"instanceVariables": {
+						"ShotsFire": 10
+					},
+					"behaviors": {},
+					"world": {
+						"x": 192,
+						"y": 448,
+						"width": 192,
+						"height": 160,
+						"originX": 1,
 						"originY": 0.5,
 						"color": [
 							1,
