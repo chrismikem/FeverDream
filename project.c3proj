@@ -220,7 +220,10 @@
 			"Text33",
 			"Text34",
 			"Sprite52",
-			"Sprite54"
+			"Sprite54",
+			"Space",
+			"To",
+			"Start"
 		],
 		"subfolders": []
 	},
