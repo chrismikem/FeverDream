@@ -369,6 +369,11 @@
 							}
 						},
 						{
+							"id": "destroy",
+							"objectClass": "Sprite3",
+							"sid": 439202896999476
+						},
+						{
 							"id": "set-animation",
 							"objectClass": "Sprite",
 							"sid": 795162471334136,
@@ -403,10 +408,10 @@
 						{
 							"id": "compare-instance-variable",
 							"objectClass": "Sprite",
-							"sid": 224831353560056,
+							"sid": 125175928404652,
 							"parameters": {
 								"instance-variable": "Health",
-								"comparison": 3,
+								"comparison": 0,
 								"value": "0"
 							}
 						}
@@ -471,6 +476,16 @@
 								"y": "253",
 								"create-hierarchy": false
 							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "Sprite3",
+							"sid": 615847154591384
+						},
+						{
+							"id": "destroy",
+							"objectClass": "Sprite28",
+							"sid": 437212580723100
 						}
 					],
 					"sid": 844991944949621
@@ -491,11 +506,11 @@
 						{
 							"id": "play",
 							"objectClass": "Audio",
-							"sid": 647981716571292,
+							"sid": 350066202838302,
 							"parameters": {
 								"audio-file": "enter portal",
 								"loop": "not-looping",
-								"volume": "-10",
+								"volume": "-15",
 								"tag-optional": "\"\""
 							}
 						},
@@ -557,6 +572,15 @@
 							"parameters": {
 								"instance-variable": "Kills01",
 								"value": "0"
+							}
+						},
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Sprite",
+							"sid": 187530301896836,
+							"parameters": {
+								"instance-variable": "Health",
+								"value": "5"
 							}
 						}
 					],
@@ -1067,6 +1091,11 @@
 							}
 						},
 						{
+							"id": "destroy",
+							"objectClass": "Sprite28",
+							"sid": 843489706559787
+						},
+						{
 							"id": "set-animation",
 							"objectClass": "Sprite",
 							"sid": 892476563828353,
@@ -1401,14 +1430,6 @@
 			],
 			"actions": [
 				{
-					"id": "set-progress",
-					"objectClass": "ProgressBar2",
-					"sid": 916358507183253,
-					"parameters": {
-						"value": "Sprite.Health"
-					}
-				},
-				{
 					"id": "set-width",
 					"objectClass": "Sprite52",
 					"sid": 626015551856562,
@@ -1549,6 +1570,121 @@
 					"isOrBlock": true
 				}
 			]
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Sprite",
+					"sid": 918547995271544,
+					"parameters": {
+						"instance-variable": "Health",
+						"comparison": 0,
+						"value": "4"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Sprite58",
+					"sid": 158965369960436
+				}
+			],
+			"sid": 480402973694119
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Sprite",
+					"sid": 376708954591836,
+					"parameters": {
+						"instance-variable": "Health",
+						"comparison": 0,
+						"value": "3"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Sprite57",
+					"sid": 549162557126352
+				}
+			],
+			"sid": 463799373818227
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Sprite",
+					"sid": 390059077359956,
+					"parameters": {
+						"instance-variable": "Health",
+						"comparison": 0,
+						"value": "2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Sprite56",
+					"sid": 959977578047080
+				}
+			],
+			"sid": 958572568109480
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Sprite",
+					"sid": 684320009299941,
+					"parameters": {
+						"instance-variable": "Health",
+						"comparison": 0,
+						"value": "1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Sprite55",
+					"sid": 947517992244103
+				}
+			],
+			"sid": 904579092882498
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Sprite",
+					"sid": 679376563153621,
+					"parameters": {
+						"instance-variable": "Health",
+						"comparison": 0,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Sprite54",
+					"sid": 439841790382720
+				}
+			],
+			"sid": 204775757149836
 		}
 	],
 	"sid": 960571337643380

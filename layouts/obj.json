@@ -537,7 +537,7 @@
 						"y": 448,
 						"width": 192,
 						"height": 160,
-						"originX": 1,
+						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
 							1,

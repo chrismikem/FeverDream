@@ -368,6 +368,11 @@
 							}
 						},
 						{
+							"id": "destroy",
+							"objectClass": "Sprite3",
+							"sid": 566525276279478
+						},
+						{
 							"id": "set-animation",
 							"objectClass": "Sprite",
 							"sid": 218798933048281,
@@ -402,10 +407,10 @@
 						{
 							"id": "compare-instance-variable",
 							"objectClass": "Sprite",
-							"sid": 460937409264339,
+							"sid": 350234865314987,
 							"parameters": {
 								"instance-variable": "Health",
-								"comparison": 3,
+								"comparison": 0,
 								"value": "0"
 							}
 						}
@@ -490,11 +495,11 @@
 						{
 							"id": "play",
 							"objectClass": "Audio",
-							"sid": 686533251933433,
+							"sid": 664192455334630,
 							"parameters": {
 								"audio-file": "enter portal",
 								"loop": "not-looping",
-								"volume": "-10",
+								"volume": "-15",
 								"tag-optional": "\"\""
 							}
 						},
@@ -722,6 +727,121 @@
 							"sid": 853219112720082
 						}
 					]
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Sprite",
+							"sid": 224755597344848,
+							"parameters": {
+								"instance-variable": "Health",
+								"comparison": 0,
+								"value": "4"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "Sprite58",
+							"sid": 387156971576016
+						}
+					],
+					"sid": 137525859519542
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Sprite",
+							"sid": 768275028318698,
+							"parameters": {
+								"instance-variable": "Health",
+								"comparison": 0,
+								"value": "3"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "Sprite57",
+							"sid": 357944483397803
+						}
+					],
+					"sid": 618506780808300
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Sprite",
+							"sid": 486981070565687,
+							"parameters": {
+								"instance-variable": "Health",
+								"comparison": 0,
+								"value": "2"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "Sprite56",
+							"sid": 324618833359542
+						}
+					],
+					"sid": 557851349305119
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Sprite",
+							"sid": 615440839999545,
+							"parameters": {
+								"instance-variable": "Health",
+								"comparison": 0,
+								"value": "1"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "Sprite55",
+							"sid": 549183469883951
+						}
+					],
+					"sid": 511038422382472
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Sprite",
+							"sid": 263960481867485,
+							"parameters": {
+								"instance-variable": "Health",
+								"comparison": 0,
+								"value": "0"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "Sprite54",
+							"sid": 975785981651189
+						}
+					],
+					"sid": 766304657393904
 				}
 			],
 			"sid": 728297150896756
@@ -1154,14 +1274,6 @@
 			],
 			"actions": [
 				{
-					"id": "set-progress",
-					"objectClass": "ProgressBar2",
-					"sid": 996737619729172,
-					"parameters": {
-						"value": "Sprite.Health"
-					}
-				},
-				{
 					"id": "set-width",
 					"objectClass": "Sprite52",
 					"sid": 737440780170963,
@@ -1326,6 +1438,29 @@
 					"isOrBlock": true
 				}
 			]
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Sprite",
+					"sid": 941326368631361,
+					"parameters": {
+						"instance-variable": "Kills01",
+						"comparison": 0,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Sprite3",
+					"sid": 670659427223226
+				}
+			],
+			"sid": 291228620355688
 		}
 	],
 	"sid": 132394727338901

@@ -174,7 +174,6 @@
 			"Text16",
 			"ProgressBar",
 			"Sprite28",
-			"ProgressBar2",
 			"Sprite30",
 			"Sprite31",
 			"Sprite32",
@@ -223,7 +222,12 @@
 			"Sprite54",
 			"Space",
 			"To",
-			"Start"
+			"Start",
+			"Sprite55",
+			"Sprite56",
+			"Sprite57",
+			"Sprite58",
+			"Sprite53"
 		],
 		"subfolders": []
 	},

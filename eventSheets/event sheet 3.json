@@ -435,11 +435,11 @@
 						{
 							"id": "play",
 							"objectClass": "Audio",
-							"sid": 153913831054957,
+							"sid": 308709882946878,
 							"parameters": {
 								"audio-file": "enter portal",
 								"loop": "not-looping",
-								"volume": "-10",
+								"volume": "-15",
 								"tag-optional": "\"\""
 							}
 						},
@@ -497,18 +497,19 @@
 						{
 							"id": "set-instvar-value",
 							"objectClass": "Sprite",
-							"sid": 659779675255702,
+							"sid": 751059075463971,
 							"parameters": {
-								"instance-variable": "Kills01",
+								"instance-variable": "Kills02",
 								"value": "0"
 							}
 						},
 						{
-							"id": "set-progress",
-							"objectClass": "ProgressBar2",
-							"sid": 166412161075725,
+							"id": "set-instvar-value",
+							"objectClass": "Sprite",
+							"sid": 336153304348893,
 							"parameters": {
-								"value": "Sprite.Health"
+								"instance-variable": "Health",
+								"value": "5"
 							}
 						}
 					],
@@ -933,55 +934,69 @@
 					"eventType": "block",
 					"conditions": [
 						{
-							"id": "every-x-seconds",
-							"objectClass": "System",
-							"sid": 174265586946375,
-							"parameters": {
-								"interval-seconds": "6"
-							}
+							"id": "is-visible",
+							"objectClass": "Sprite13",
+							"sid": 984811497985530
 						}
 					],
-					"actions": [
+					"actions": [],
+					"sid": 678832113521268,
+					"children": [
 						{
-							"id": "spawn-another-object",
-							"objectClass": "Sprite9",
-							"sid": 662663645766791,
-							"parameters": {
-								"object": "Sprite3",
-								"layer": "0",
-								"image-point": "0",
-								"create-hierarchy": false
-							}
-						}
-					],
-					"sid": 681293676640348
-				},
-				{
-					"eventType": "block",
-					"conditions": [
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "every-x-seconds",
+									"objectClass": "System",
+									"sid": 953642445440795,
+									"parameters": {
+										"interval-seconds": "6"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "spawn-another-object",
+									"objectClass": "Sprite9",
+									"sid": 260198214652238,
+									"parameters": {
+										"object": "Sprite3",
+										"layer": "0",
+										"image-point": "0",
+										"create-hierarchy": false
+									}
+								}
+							],
+							"sid": 996145565242179
+						},
 						{
-							"id": "every-x-seconds",
-							"objectClass": "System",
-							"sid": 597862657974068,
-							"parameters": {
-								"interval-seconds": "8"
-							}
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "every-x-seconds",
+									"objectClass": "System",
+									"sid": 913473319129397,
+									"parameters": {
+										"interval-seconds": "8"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "spawn-another-object",
+									"objectClass": "Sprite10",
+									"sid": 114913472510683,
+									"parameters": {
+										"object": "Sprite3",
+										"layer": "0",
+										"image-point": "0",
+										"create-hierarchy": false
+									}
+								}
+							],
+							"sid": 239076461370244
 						}
-					],
-					"actions": [
-						{
-							"id": "spawn-another-object",
-							"objectClass": "Sprite10",
-							"sid": 678080628709369,
-							"parameters": {
-								"object": "Sprite3",
-								"layer": "0",
-								"image-point": "0",
-								"create-hierarchy": false
-							}
-						}
-					],
-					"sid": 857728967305134
+					]
 				},
 				{
 					"eventType": "block",
@@ -1109,6 +1124,11 @@
 								"image-point": "0",
 								"create-hierarchy": false
 							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "Sprite3",
+							"sid": 950283719680523
 						}
 					],
 					"sid": 907635007108489
@@ -1436,19 +1456,11 @@
 			],
 			"actions": [
 				{
-					"id": "set-progress",
-					"objectClass": "ProgressBar2",
-					"sid": 294532282889923,
+					"id": "set-width",
+					"objectClass": "Sprite53",
+					"sid": 256081031874872,
 					"parameters": {
-						"value": "Sprite.Health"
-					}
-				},
-				{
-					"id": "set-progress",
-					"objectClass": "ProgressBar",
-					"sid": 512279296321758,
-					"parameters": {
-						"value": "ProgressBar.BossHealth"
+						"width": "192*(Sprite13.Boss1Health/35)"
 					}
 				}
 			],

@@ -447,62 +447,6 @@
 			"overriden": 0,
 			"instances": [
 				{
-					"type": "ProgressBar",
-					"properties": {
-						"value": 0,
-						"maximum": 40,
-						"tooltip": "",
-						"initially-visible": true,
-						"id": ""
-					},
-					"uid": 84,
-					"instanceVariables": {
-						"BossHealth": 40
-					},
-					"behaviors": {},
-					"world": {
-						"x": 640,
-						"y": 32,
-						"width": 192,
-						"height": 32,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						]
-					}
-				},
-				{
-					"type": "ProgressBar2",
-					"properties": {
-						"value": 5,
-						"maximum": 5,
-						"tooltip": "",
-						"initially-visible": true,
-						"id": ""
-					},
-					"uid": 88,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 96,
-						"y": 64,
-						"width": 192,
-						"height": 32,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						]
-					}
-				},
-				{
 					"type": "Sprite52",
 					"properties": {
 						"initially-visible": true,
@@ -517,11 +461,11 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 288,
-						"y": 128,
+						"x": 160,
+						"y": 160,
 						"width": 192,
 						"height": 160,
-						"originX": 1,
+						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
 							1,
@@ -546,10 +490,157 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 66,
-						"y": 81,
-						"width": 96,
-						"height": 64,
+						"x": 96,
+						"y": 96,
+						"width": 128,
+						"height": 96,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Sprite55",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 88,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 128,
+						"y": 96,
+						"width": 128,
+						"height": 96,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Sprite56",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 133,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 160,
+						"y": 96,
+						"width": 128,
+						"height": 96,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Sprite57",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 134,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 192,
+						"y": 96,
+						"width": 128,
+						"height": 96,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Sprite58",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 135,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 224,
+						"y": 96,
+						"width": 128,
+						"height": 96,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Sprite53",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 84,
+					"instanceVariables": {
+						"BossHealth": 35
+					},
+					"behaviors": {},
+					"world": {
+						"x": 704,
+						"y": 64,
+						"width": 192,
+						"height": 160,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
