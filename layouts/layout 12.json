@@ -18,10 +18,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 254,
-						"y": 313,
-						"width": 506,
-						"height": 453,
+						"x": 480,
+						"y": 270,
+						"width": 958,
+						"height": 539,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -47,9 +47,9 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 254.5,
-						"y": 484.5,
-						"width": 504.8455974980335,
+						"x": 480.52432707631283,
+						"y": 483.18665895280105,
+						"width": 956.9018829095132,
 						"height": 108.85460223501566,
 						"originX": 0.5,
 						"originY": 0.5,
@@ -91,7 +91,7 @@
 					"world": {
 						"x": 24,
 						"y": 445,
-						"width": 444,
+						"width": 874,
 						"height": 49,
 						"originX": 0,
 						"originY": 0,
@@ -134,8 +134,8 @@
 	"sid": 926000671634819,
 	"nonworld-instances": [],
 	"effectTypes": [],
-	"width": 509,
-	"height": 1080,
+	"width": 958,
+	"height": 539,
 	"unboundedScrolling": false,
 	"eventSheet": "Start"
 }

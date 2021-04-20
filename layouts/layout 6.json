@@ -18,9 +18,9 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 311,
+						"x": 477,
 						"y": 268.5,
-						"width": 622.0000000000001,
+						"width": 954.0000000000002,
 						"height": 535,
 						"originX": 0.5,
 						"originY": 0.5,
@@ -47,9 +47,9 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 312,
+						"x": 480,
 						"y": 490,
-						"width": 606,
+						"width": 942,
 						"height": 94,
 						"originX": 0.5,
 						"originY": 0.5,
@@ -134,8 +134,8 @@
 	"sid": 525209950718605,
 	"nonworld-instances": [],
 	"effectTypes": [],
-	"width": 622,
-	"height": 1080,
+	"width": 954,
+	"height": 535,
 	"unboundedScrolling": false,
 	"eventSheet": "Start"
 }

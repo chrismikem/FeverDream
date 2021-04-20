@@ -18,9 +18,9 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 269,
+						"x": 481,
 						"y": 267,
-						"width": 533,
+						"width": 957,
 						"height": 540,
 						"originX": 0.5,
 						"originY": 0.5,
@@ -47,9 +47,9 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 272,
+						"x": 482,
 						"y": 473.5,
-						"width": 530,
+						"width": 950.0000000000001,
 						"height": 126,
 						"originX": 0.5,
 						"originY": 0.5,
@@ -91,7 +91,7 @@
 					"world": {
 						"x": 29,
 						"y": 424,
-						"width": 487,
+						"width": 864,
 						"height": 51,
 						"originX": 0,
 						"originY": 0,
@@ -176,8 +176,8 @@
 	"sid": 424266127502131,
 	"nonworld-instances": [],
 	"effectTypes": [],
-	"width": 1920,
-	"height": 1080,
+	"width": 957,
+	"height": 540,
 	"unboundedScrolling": false,
 	"eventSheet": "GameOver"
 }

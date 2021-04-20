@@ -18,9 +18,9 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 256,
+						"x": 479,
 						"y": 266,
-						"width": 509,
+						"width": 955.0000000000001,
 						"height": 534,
 						"originX": 0.5,
 						"originY": 0.5,
@@ -47,9 +47,9 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 257,
+						"x": 480,
 						"y": 480,
-						"width": 501,
+						"width": 947,
 						"height": 110.99999999999999,
 						"originX": 0.5,
 						"originY": 0.5,
@@ -66,7 +66,7 @@
 				{
 					"type": "Text19",
 					"properties": {
-						"text": "But as soon as he looks at the window he notices how there were red lasers teleporting people in the sky, he couldn't believe this wasn't just an experiment this was something bigger and sinister....",
+						"text": "But as soon as he looks at the window he notices how there were red lasers teleporting people in the sky, he couldn't believe this, this wasn't just an experiment this was something bigger and sinister....",
 						"enable-bbcode": true,
 						"font": "IndieFlower-Regular",
 						"size": 12,
@@ -91,7 +91,7 @@
 					"world": {
 						"x": 31,
 						"y": 437,
-						"width": 460,
+						"width": 880,
 						"height": 83,
 						"originX": 0,
 						"originY": 0,
@@ -176,8 +176,8 @@
 	"sid": 869100291121290,
 	"nonworld-instances": [],
 	"effectTypes": [],
-	"width": 509,
-	"height": 1080,
+	"width": 955,
+	"height": 534,
 	"unboundedScrolling": false,
 	"eventSheet": "Start"
 }
