@@ -221,7 +221,13 @@
 			"Sprite59",
 			"Sprite60",
 			"Sprite61",
-			"Sprite62"
+			"Sprite62",
+			"TiledBackground4",
+			"Sprite63",
+			"Sprite64",
+			"Sprite65",
+			"Sprite66",
+			"Sprite67"
 		],
 		"subfolders": []
 	},
@@ -257,7 +263,9 @@
 			"Layout 9",
 			"Layout 10",
 			"Layout 11",
-			"obj"
+			"obj",
+			"Next02",
+			"Next03"
 		],
 		"subfolders": []
 	},
@@ -267,7 +275,9 @@
 			"Start",
 			"GameOver",
 			"Event sheet 2",
-			"Event sheet 3"
+			"Event sheet 3",
+			"Next02",
+			"Next03"
 		],
 		"subfolders": []
 	},

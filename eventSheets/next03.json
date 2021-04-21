@@ -1,0 +1,30 @@
+{
+	"name": "Next03",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 262021562436435,
+					"parameters": {
+						"key": 32
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout-by-name",
+					"objectClass": "System",
+					"sid": 575123721426129,
+					"parameters": {
+						"layout": "\"Level03\""
+					}
+				}
+			],
+			"sid": 385070251569584
+		}
+	],
+	"sid": 533852015163737
+}

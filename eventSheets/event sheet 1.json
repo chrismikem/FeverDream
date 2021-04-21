@@ -535,9 +535,9 @@
 						{
 							"id": "go-to-layout-by-name",
 							"objectClass": "System",
-							"sid": 442839258755542,
+							"sid": 334975395334659,
 							"parameters": {
-								"layout": "\"Level02\""
+								"layout": "\"Next02\""
 							}
 						}
 					],

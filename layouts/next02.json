@@ -1,5 +1,5 @@
 {
-	"name": "C",
+	"name": "Next02",
 	"layers": [
 		{
 			"name": "Layer 0",
@@ -18,7 +18,7 @@
 						"image-scale-y": 1,
 						"image-angle": 0
 					},
-					"uid": 142,
+					"uid": 143,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -39,37 +39,24 @@
 					}
 				},
 				{
-					"type": "Text4",
+					"type": "Sprite63",
 					"properties": {
-						"text": "CONGRATS",
-						"enable-bbcode": true,
-						"font": "Arial",
-						"size": 35,
-						"line-height": 0,
-						"bold": false,
-						"italic": false,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"horizontal-alignment": "left",
-						"vertical-alignment": "top",
-						"wrapping": "word",
 						"initially-visible": true,
-						"origin": "top-left"
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
 					},
-					"uid": 21,
+					"uid": 145,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 320,
-						"y": 128,
-						"width": 288,
-						"height": 96,
-						"originX": 0,
-						"originY": 0,
+						"x": 448,
+						"y": 160,
+						"width": 248,
+						"height": 248,
+						"originX": 0.5,
+						"originY": 0.5,
 						"color": [
 							1,
 							1,
@@ -81,37 +68,82 @@
 					}
 				},
 				{
-					"type": "Text5",
+					"type": "Sprite64",
 					"properties": {
-						"text": "Press Space to see the Epilogue",
-						"enable-bbcode": true,
-						"font": "Arial",
-						"size": 12,
-						"line-height": 0,
-						"bold": false,
-						"italic": false,
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 146,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 640,
+						"y": 128,
+						"width": 248,
+						"height": 248,
+						"originX": 0.5,
+						"originY": 0.5,
 						"color": [
 							1,
 							1,
 							1,
 							1
 						],
-						"horizontal-alignment": "left",
-						"vertical-alignment": "top",
-						"wrapping": "word",
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Sprite65",
+					"properties": {
 						"initially-visible": true,
-						"origin": "top-left"
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
 					},
-					"uid": 22,
+					"uid": 147,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 320,
-						"y": 320,
-						"width": 293,
-						"height": 30,
-						"originX": 0,
-						"originY": 0,
+						"x": 544,
+						"y": 288,
+						"width": 248,
+						"height": 248,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Sprite66",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 148,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 800,
+						"y": 288,
+						"width": 248,
+						"height": 248,
+						"originX": 0.5,
+						"originY": 0.5,
 						"color": [
 							1,
 							1,
@@ -123,7 +155,7 @@
 					}
 				}
 			],
-			"sid": 938999156710384,
+			"sid": 753497267870482,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
 			"color": [
@@ -148,11 +180,11 @@
 			"global": false
 		}
 	],
-	"sid": 946883634187875,
+	"sid": 593453100089513,
 	"nonworld-instances": [],
 	"effectTypes": [],
-	"width": 960,
-	"height": 540,
+	"width": 1920,
+	"height": 1080,
 	"unboundedScrolling": false,
-	"eventSheet": "Start"
+	"eventSheet": "Next02"
 }
