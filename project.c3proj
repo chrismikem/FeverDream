@@ -63,14 +63,6 @@
 			"bundled": false
 		},
 		{
-			"type": "plugin",
-			"id": "progressbar",
-			"name": "Progress bar",
-			"author": "Scirra",
-			"version": "r241",
-			"bundled": false
-		},
-		{
 			"type": "behavior",
 			"id": "EightDir",
 			"name": "8 Direction",
@@ -172,7 +164,6 @@
 			"Sprite27",
 			"Text15",
 			"Text16",
-			"ProgressBar",
 			"Sprite28",
 			"Sprite30",
 			"Sprite31",

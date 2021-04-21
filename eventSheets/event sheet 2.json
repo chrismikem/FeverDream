@@ -275,6 +275,14 @@
 										"instance-variable": "Shots",
 										"value": "10"
 									}
+								},
+								{
+									"id": "set-visible",
+									"objectClass": "Sprite52",
+									"sid": 614512722980250,
+									"parameters": {
+										"visibility": "visible"
+									}
 								}
 							],
 							"sid": 937280499263637
@@ -1524,7 +1532,7 @@
 				{
 					"id": "compare-instance-variable",
 					"objectClass": "Sprite",
-					"sid": 772696889048247,
+					"sid": 142561257803727,
 					"parameters": {
 						"instance-variable": "Shots",
 						"comparison": 2,
@@ -1563,6 +1571,14 @@
 							"parameters": {
 								"instance-variable": "Health",
 								"value": "1"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "Sprite52",
+							"sid": 792828979413083,
+							"parameters": {
+								"visibility": "invisible"
 							}
 						}
 					],

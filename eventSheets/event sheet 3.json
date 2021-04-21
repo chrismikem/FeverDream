@@ -567,6 +567,15 @@
 					],
 					"actions": [
 						{
+							"id": "subtract-from-instvar",
+							"objectClass": "Sprite",
+							"sid": 933194854289984,
+							"parameters": {
+								"instance-variable": "Health",
+								"value": "1"
+							}
+						},
+						{
 							"id": "set-animation",
 							"objectClass": "Sprite",
 							"sid": 232355312853669,
@@ -601,48 +610,6 @@
 						{
 							"id": "on-collision-with-another-object",
 							"objectClass": "Sprite",
-							"sid": 973392536562935,
-							"parameters": {
-								"object": "Sprite28"
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "set-animation",
-							"objectClass": "Sprite",
-							"sid": 919721416267714,
-							"parameters": {
-								"animation": "\"Animation 2\"",
-								"from": "beginning"
-							}
-						},
-						{
-							"id": "wait",
-							"objectClass": "System",
-							"sid": 164803872978798,
-							"parameters": {
-								"seconds": "4"
-							}
-						},
-						{
-							"id": "set-animation",
-							"objectClass": "Sprite",
-							"sid": 942521224916388,
-							"parameters": {
-								"animation": "\"Animation 1\"",
-								"from": "beginning"
-							}
-						}
-					],
-					"sid": 749525712091223
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "on-collision-with-another-object",
-							"objectClass": "Sprite",
 							"sid": 262865643031729,
 							"parameters": {
 								"object": "Sprite14"
@@ -650,6 +617,15 @@
 						}
 					],
 					"actions": [
+						{
+							"id": "subtract-from-instvar",
+							"objectClass": "Sprite",
+							"sid": 209220048732282,
+							"parameters": {
+								"instance-variable": "Health",
+								"value": "1"
+							}
+						},
 						{
 							"id": "set-animation",
 							"objectClass": "Sprite",
@@ -692,6 +668,15 @@
 						}
 					],
 					"actions": [
+						{
+							"id": "subtract-from-instvar",
+							"objectClass": "Sprite",
+							"sid": 178829046534372,
+							"parameters": {
+								"instance-variable": "Health",
+								"value": "1"
+							}
+						},
 						{
 							"id": "set-animation",
 							"objectClass": "Sprite",
@@ -1069,34 +1054,6 @@
 					"eventType": "block",
 					"conditions": [
 						{
-							"id": "compare-instance-variable",
-							"objectClass": "ProgressBar",
-							"sid": 890765292226968,
-							"parameters": {
-								"instance-variable": "BossHealth",
-								"comparison": 3,
-								"value": "0"
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "destroy",
-							"objectClass": "Sprite13",
-							"sid": 217173367646225
-						},
-						{
-							"id": "destroy",
-							"objectClass": "ProgressBar",
-							"sid": 562826883824589
-						}
-					],
-					"sid": 652751958588460
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
 							"id": "on-destroyed",
 							"objectClass": "Sprite13",
 							"sid": 870727617842420
@@ -1147,18 +1104,18 @@
 					],
 					"actions": [
 						{
-							"id": "subtract-from-instvar",
-							"objectClass": "ProgressBar",
-							"sid": 905659052234529,
-							"parameters": {
-								"instance-variable": "BossHealth",
-								"value": "1"
-							}
-						},
-						{
 							"id": "destroy",
 							"objectClass": "Sprite2",
 							"sid": 184755877064656
+						},
+						{
+							"id": "subtract-from-instvar",
+							"objectClass": "Sprite13",
+							"sid": 966507320637639,
+							"parameters": {
+								"instance-variable": "Boss1Health",
+								"value": "1"
+							}
 						}
 					],
 					"sid": 800386363712886
@@ -1684,7 +1641,7 @@
 				{
 					"id": "compare-instance-variable",
 					"objectClass": "Sprite",
-					"sid": 645237825634830,
+					"sid": 911212502437984,
 					"parameters": {
 						"instance-variable": "Shots",
 						"comparison": 2,
@@ -1730,6 +1687,121 @@
 					"isOrBlock": true
 				}
 			]
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Sprite",
+					"sid": 452983525349700,
+					"parameters": {
+						"instance-variable": "Health",
+						"comparison": 0,
+						"value": "4"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Sprite58",
+					"sid": 140437335157968
+				}
+			],
+			"sid": 632302825341897
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Sprite",
+					"sid": 514885055863159,
+					"parameters": {
+						"instance-variable": "Health",
+						"comparison": 0,
+						"value": "3"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Sprite57",
+					"sid": 775946514095654
+				}
+			],
+			"sid": 730305119976656
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Sprite",
+					"sid": 634860739777720,
+					"parameters": {
+						"instance-variable": "Health",
+						"comparison": 0,
+						"value": "2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Sprite56",
+					"sid": 219135991618013
+				}
+			],
+			"sid": 105745003619435
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Sprite",
+					"sid": 491911485571188,
+					"parameters": {
+						"instance-variable": "Health",
+						"comparison": 0,
+						"value": "1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Sprite55",
+					"sid": 451272453001033
+				}
+			],
+			"sid": 550810981316651
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Sprite",
+					"sid": 818667735910984,
+					"parameters": {
+						"instance-variable": "Health",
+						"comparison": 0,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Sprite54",
+					"sid": 810483412087622
+				}
+			],
+			"sid": 485408410341751
 		}
 	],
 	"sid": 621062375865399
