@@ -232,51 +232,6 @@
 					}
 				},
 				{
-					"type": "Particles",
-					"properties": {
-						"rate": 50,
-						"spray-cone": 360,
-						"type": "one-shot",
-						"object": -1,
-						"live-preview": false,
-						"speed": 200,
-						"size": 32,
-						"opacity": 100,
-						"grow-rate": 0,
-						"x-randomiser": 10,
-						"y-randomiser": 10,
-						"initial-speed-randomiser": 0,
-						"size-randomiser": 10,
-						"grow-rate-randomiser": 0,
-						"acceleration": -150,
-						"gravity": 0,
-						"angle-randomiser": 0,
-						"life-speed-randomiser": 800,
-						"opacity-randomiser": 0,
-						"destroy-mode": "fade-to-invisible",
-						"timeout": 1
-					},
-					"uid": 12,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 320,
-						"y": 64,
-						"width": 100,
-						"height": 100,
-						"originX": 0,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
 					"type": "Particles2",
 					"properties": {
 						"rate": 50,
@@ -537,6 +492,76 @@
 						"y": 448,
 						"width": 192,
 						"height": 160,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Sprite61",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 141,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 800,
+						"y": 128,
+						"width": 300,
+						"height": 240,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Sprite62",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 12,
+					"instanceVariables": {},
+					"behaviors": {
+						"Bullet": {
+							"properties": {
+								"speed": 150,
+								"acceleration": 0,
+								"gravity": 0,
+								"bounce-off-solids": false,
+								"set-angle": true,
+								"step": false,
+								"enabled": true
+							}
+						}
+					},
+					"world": {
+						"x": 224,
+						"y": 192,
+						"width": 160,
+						"height": 128,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [

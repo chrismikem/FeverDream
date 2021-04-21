@@ -275,6 +275,30 @@
 										"instance-variable": "Shots",
 										"value": "10"
 									}
+								},
+								{
+									"id": "set-visible",
+									"objectClass": "Sprite52",
+									"sid": 719174459917414,
+									"parameters": {
+										"visibility": "visible"
+									}
+								},
+								{
+									"id": "set-visible",
+									"objectClass": "Sprite59",
+									"sid": 571897383722831,
+									"parameters": {
+										"visibility": "visible"
+									}
+								},
+								{
+									"id": "set-visible",
+									"objectClass": "Sprite60",
+									"sid": 168014930249904,
+									"parameters": {
+										"visibility": "visible"
+									}
 								}
 							],
 							"sid": 818255021019585
@@ -326,50 +350,6 @@
 						}
 					],
 					"sid": 656352707275464
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "on-collision-with-another-object",
-							"objectClass": "Sprite",
-							"sid": 833737644273911,
-							"parameters": {
-								"object": "Sprite3"
-							}
-						},
-						{
-							"id": "is-animation-playing",
-							"objectClass": "Sprite",
-							"sid": 885171942405099,
-							"parameters": {
-								"animation": "\"Animation 1\""
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "play",
-							"objectClass": "Audio",
-							"sid": 782598203285442,
-							"parameters": {
-								"audio-file": "Hit_hurt 18",
-								"loop": "not-looping",
-								"volume": "-20",
-								"tag-optional": "\"\""
-							}
-						},
-						{
-							"id": "subtract-from-instvar",
-							"objectClass": "Sprite",
-							"sid": 443905151489531,
-							"parameters": {
-								"instance-variable": "Health",
-								"value": "1"
-							}
-						}
-					],
-					"sid": 205799871076206
 				},
 				{
 					"eventType": "block",
@@ -463,31 +443,6 @@
 					"eventType": "block",
 					"conditions": [
 						{
-							"id": "is-enabled",
-							"objectClass": "Sprite",
-							"sid": 871241376371989,
-							"behaviorType": "Bullet"
-						}
-					],
-					"actions": [
-						{
-							"id": "spawn-another-object",
-							"objectClass": "Sprite",
-							"sid": 574741697518393,
-							"parameters": {
-								"object": "Particles2",
-								"layer": "0",
-								"image-point": "0",
-								"create-hierarchy": false
-							}
-						}
-					],
-					"sid": 639906120463444
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
 							"id": "on-start-of-layout",
 							"objectClass": "System",
 							"sid": 310833791588905
@@ -565,146 +520,61 @@
 							}
 						}
 					],
-					"actions": [
+					"actions": [],
+					"sid": 711637463857234,
+					"children": [
 						{
-							"id": "subtract-from-instvar",
-							"objectClass": "Sprite",
-							"sid": 933194854289984,
-							"parameters": {
-								"instance-variable": "Health",
-								"value": "1"
-							}
-						},
-						{
-							"id": "set-animation",
-							"objectClass": "Sprite",
-							"sid": 232355312853669,
-							"parameters": {
-								"animation": "\"Animation 2\"",
-								"from": "beginning"
-							}
-						},
-						{
-							"id": "wait",
-							"objectClass": "System",
-							"sid": 937273734516411,
-							"parameters": {
-								"seconds": "4"
-							}
-						},
-						{
-							"id": "set-animation",
-							"objectClass": "Sprite",
-							"sid": 129701717397913,
-							"parameters": {
-								"animation": "\"Animation 1\"",
-								"from": "beginning"
-							}
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "is-animation-playing",
+									"objectClass": "Sprite",
+									"sid": 197384600805783,
+									"parameters": {
+										"animation": "\"Animation 1\""
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "subtract-from-instvar",
+									"objectClass": "Sprite",
+									"sid": 425464692136199,
+									"parameters": {
+										"instance-variable": "Health",
+										"value": "1"
+									}
+								},
+								{
+									"id": "set-animation",
+									"objectClass": "Sprite",
+									"sid": 279532212902228,
+									"parameters": {
+										"animation": "\"Animation 2\"",
+										"from": "beginning"
+									}
+								},
+								{
+									"id": "wait",
+									"objectClass": "System",
+									"sid": 425551310912635,
+									"parameters": {
+										"seconds": "4"
+									}
+								},
+								{
+									"id": "set-animation",
+									"objectClass": "Sprite",
+									"sid": 546858470621187,
+									"parameters": {
+										"animation": "\"Animation 1\"",
+										"from": "beginning"
+									}
+								}
+							],
+							"sid": 658782924066539
 						}
-					],
-					"sid": 711637463857234
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "on-collision-with-another-object",
-							"objectClass": "Sprite",
-							"sid": 262865643031729,
-							"parameters": {
-								"object": "Sprite14"
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "subtract-from-instvar",
-							"objectClass": "Sprite",
-							"sid": 209220048732282,
-							"parameters": {
-								"instance-variable": "Health",
-								"value": "1"
-							}
-						},
-						{
-							"id": "set-animation",
-							"objectClass": "Sprite",
-							"sid": 479525797500918,
-							"parameters": {
-								"animation": "\"Animation 2\"",
-								"from": "beginning"
-							}
-						},
-						{
-							"id": "wait",
-							"objectClass": "System",
-							"sid": 450981353899258,
-							"parameters": {
-								"seconds": "4"
-							}
-						},
-						{
-							"id": "set-animation",
-							"objectClass": "Sprite",
-							"sid": 656858550364819,
-							"parameters": {
-								"animation": "\"Animation 1\"",
-								"from": "beginning"
-							}
-						}
-					],
-					"sid": 785904497781847
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "on-collision-with-another-object",
-							"objectClass": "Sprite",
-							"sid": 904776614171925,
-							"parameters": {
-								"object": "Sprite13"
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "subtract-from-instvar",
-							"objectClass": "Sprite",
-							"sid": 178829046534372,
-							"parameters": {
-								"instance-variable": "Health",
-								"value": "1"
-							}
-						},
-						{
-							"id": "set-animation",
-							"objectClass": "Sprite",
-							"sid": 578410391736648,
-							"parameters": {
-								"animation": "\"Animation 2\"",
-								"from": "beginning"
-							}
-						},
-						{
-							"id": "wait",
-							"objectClass": "System",
-							"sid": 158415527854153,
-							"parameters": {
-								"seconds": "4"
-							}
-						},
-						{
-							"id": "set-animation",
-							"objectClass": "Sprite",
-							"sid": 304749239751850,
-							"parameters": {
-								"animation": "\"Animation 1\"",
-								"from": "beginning"
-							}
-						}
-					],
-					"sid": 891994232451352
+					]
 				},
 				{
 					"eventType": "block",
@@ -919,9 +789,9 @@
 					"eventType": "block",
 					"conditions": [
 						{
-							"id": "is-visible",
+							"id": "is-on-screen",
 							"objectClass": "Sprite13",
-							"sid": 984811497985530
+							"sid": 692762347218170
 						}
 					],
 					"actions": [],
@@ -994,16 +864,28 @@
 					],
 					"actions": [
 						{
-							"id": "create-object",
-							"objectClass": "System",
-							"sid": 508422419555487,
+							"id": "spawn-another-object",
+							"objectClass": "Sprite3",
+							"sid": 379113951504806,
 							"parameters": {
-								"object-to-create": "Particles",
+								"object": "Sprite61",
 								"layer": "0",
-								"x": "Sprite3.X",
-								"y": "Sprite3.Y",
+								"image-point": "0",
 								"create-hierarchy": false
 							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 145637579709116,
+							"parameters": {
+								"seconds": "2"
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "Sprite61",
+							"sid": 658278048187418
 						}
 					],
 					"sid": 763532157979344
@@ -1029,7 +911,7 @@
 								{
 									"id": "is-animation-playing",
 									"objectClass": "Sprite",
-									"sid": 853725817829664,
+									"sid": 273908691739976,
 									"parameters": {
 										"animation": "\"Animation 3\""
 									}
@@ -1074,13 +956,26 @@
 						{
 							"id": "spawn-another-object",
 							"objectClass": "Sprite13",
-							"sid": 720063604133860,
+							"sid": 201000170221040,
 							"parameters": {
-								"object": "Particles",
+								"object": "Sprite61",
 								"layer": "0",
 								"image-point": "0",
 								"create-hierarchy": false
 							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 885196640717773,
+							"parameters": {
+								"seconds": "2"
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "Sprite61",
+							"sid": 317739486264669
 						},
 						{
 							"id": "destroy",
@@ -1183,31 +1078,45 @@
 							}
 						}
 					],
-					"actions": [
+					"actions": [],
+					"sid": 914130144701810,
+					"children": [
 						{
-							"id": "play",
-							"objectClass": "Audio",
-							"sid": 122668750506644,
-							"parameters": {
-								"audio-file": "boss shooting",
-								"loop": "not-looping",
-								"volume": "-10",
-								"tag-optional": "\"\""
-							}
-						},
-						{
-							"id": "spawn-another-object",
-							"objectClass": "Sprite13",
-							"sid": 583482842464097,
-							"parameters": {
-								"object": "Sprite14",
-								"layer": "0",
-								"image-point": "0",
-								"create-hierarchy": false
-							}
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "is-on-screen",
+									"objectClass": "Sprite13",
+									"sid": 902607179131139
+								}
+							],
+							"actions": [
+								{
+									"id": "play",
+									"objectClass": "Audio",
+									"sid": 383620372015740,
+									"parameters": {
+										"audio-file": "boss shooting",
+										"loop": "not-looping",
+										"volume": "-10",
+										"tag-optional": "\"\""
+									}
+								},
+								{
+									"id": "spawn-another-object",
+									"objectClass": "Sprite13",
+									"sid": 916543673677973,
+									"parameters": {
+										"object": "Sprite14",
+										"layer": "0",
+										"image-point": "0",
+										"create-hierarchy": false
+									}
+								}
+							],
+							"sid": 604766340324834
 						}
-					],
-					"sid": 914130144701810
+					]
 				},
 				{
 					"eventType": "block",
@@ -1275,6 +1184,67 @@
 						}
 					],
 					"sid": 913357525321082
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Sprite3",
+							"sid": 964156047644962,
+							"parameters": {
+								"object": "Sprite"
+							}
+						}
+					],
+					"actions": [],
+					"sid": 134393507457078,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "is-animation-playing",
+									"objectClass": "Sprite",
+									"sid": 863885886786961,
+									"parameters": {
+										"animation": "\"Animation 3\""
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "destroy",
+									"objectClass": "Sprite3",
+									"sid": 505771503978567
+								}
+							],
+							"sid": 648553920251233
+						}
+					]
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Sprite13",
+							"sid": 473417902422948,
+							"parameters": {
+								"instance-variable": "Boss1Health",
+								"comparison": 0,
+								"value": "0"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "Sprite13",
+							"sid": 694715761861363
+						}
+					],
+					"sid": 517406971128071
 				}
 			],
 			"sid": 291461555288077
@@ -1415,9 +1385,9 @@
 				{
 					"id": "set-width",
 					"objectClass": "Sprite53",
-					"sid": 256081031874872,
+					"sid": 399732549307892,
 					"parameters": {
-						"width": "192*(Sprite13.Boss1Health/35)"
+						"width": "192*(Sprite13.Boss1Health/30)"
 					}
 				}
 			],
@@ -1539,7 +1509,7 @@
 						{
 							"id": "play",
 							"objectClass": "Audio",
-							"sid": 734436482310199,
+							"sid": 266672437168968,
 							"parameters": {
 								"audio-file": "Hit_hurt 18",
 								"loop": "not-looping",
@@ -1554,6 +1524,32 @@
 							"parameters": {
 								"instance-variable": "Health",
 								"value": "1"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "Sprite",
+							"sid": 767871533435493,
+							"parameters": {
+								"animation": "\"Animation 2\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 355847388871470,
+							"parameters": {
+								"seconds": "4"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "Sprite",
+							"sid": 592647553792944,
+							"parameters": {
+								"animation": "\"Animation 1\"",
+								"from": "beginning"
 							}
 						}
 					],
@@ -1608,6 +1604,32 @@
 								"instance-variable": "Health",
 								"value": "1"
 							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "Sprite",
+							"sid": 205611266052717,
+							"parameters": {
+								"animation": "\"Animation 2\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 456942899057859,
+							"parameters": {
+								"seconds": "4"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "Sprite",
+							"sid": 663144080394729,
+							"parameters": {
+								"animation": "\"Animation 1\"",
+								"from": "beginning"
+							}
 						}
 					],
 					"sid": 893418325891056
@@ -1628,6 +1650,22 @@
 					"id": "set-width",
 					"objectClass": "Sprite52",
 					"sid": 704452880284888,
+					"parameters": {
+						"width": "192*(Sprite.Shots/10)"
+					}
+				},
+				{
+					"id": "set-width",
+					"objectClass": "Sprite59",
+					"sid": 877291393264363,
+					"parameters": {
+						"width": "192*(Sprite.Shots/10)"
+					}
+				},
+				{
+					"id": "set-width",
+					"objectClass": "Sprite60",
+					"sid": 794457476445546,
 					"parameters": {
 						"width": "192*(Sprite.Shots/10)"
 					}
@@ -1680,6 +1718,14 @@
 							"parameters": {
 								"instance-variable": "Health",
 								"value": "1"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "Sprite60",
+							"sid": 697136622518246,
+							"parameters": {
+								"visibility": "invisible"
 							}
 						}
 					],
@@ -1802,6 +1848,232 @@
 				}
 			],
 			"sid": 485408410341751
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Sprite",
+					"sid": 813464706122863,
+					"parameters": {
+						"instance-variable": "Shots",
+						"comparison": 0,
+						"value": "6"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "Sprite52",
+					"sid": 117226764814882,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				}
+			],
+			"sid": 464994064007651
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Sprite",
+					"sid": 913041802662545,
+					"parameters": {
+						"instance-variable": "Shots",
+						"comparison": 0,
+						"value": "3"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "Sprite59",
+					"sid": 713538910262706,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				}
+			],
+			"sid": 584127971316132
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-enabled",
+					"objectClass": "Sprite",
+					"sid": 633610173816945,
+					"behaviorType": "Bullet"
+				}
+			],
+			"actions": [],
+			"sid": 148557283639028,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "every-x-seconds",
+							"objectClass": "System",
+							"sid": 959530915488744,
+							"parameters": {
+								"interval-seconds": "1.0"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "spawn-another-object",
+							"objectClass": "Sprite",
+							"sid": 771743561815797,
+							"parameters": {
+								"object": "Sprite62",
+								"layer": "0",
+								"image-point": "0",
+								"create-hierarchy": false
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 415919602207884,
+							"parameters": {
+								"seconds": "2"
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "Sprite62",
+							"sid": 455217217008025
+						}
+					],
+					"sid": 905473452054031
+				}
+			]
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-created",
+					"objectClass": "Sprite62",
+					"sid": 452261167156413
+				}
+			],
+			"actions": [],
+			"sid": 788120073137750,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-mirrored",
+							"objectClass": "Sprite",
+							"sid": 143536744644439
+						}
+					],
+					"actions": [
+						{
+							"id": "set-angle-of-motion",
+							"objectClass": "Sprite62",
+							"sid": 623040055582521,
+							"behaviorType": "Bullet",
+							"parameters": {
+								"angle": "0"
+							}
+						}
+					],
+					"sid": 111111103989366
+				}
+			]
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-created",
+					"objectClass": "Sprite62",
+					"sid": 186644192576696
+				}
+			],
+			"actions": [],
+			"sid": 286788031276097,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-mirrored",
+							"objectClass": "Sprite",
+							"sid": 958459318334702,
+							"isInverted": true
+						}
+					],
+					"actions": [
+						{
+							"id": "set-angle-of-motion",
+							"objectClass": "Sprite62",
+							"sid": 890501290148233,
+							"behaviorType": "Bullet",
+							"parameters": {
+								"angle": "180"
+							}
+						}
+					],
+					"sid": 317868774418599
+				}
+			]
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite3",
+					"sid": 690505298938884,
+					"parameters": {
+						"object": "Sprite62"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Sprite3",
+					"sid": 186190074511290
+				}
+			],
+			"sid": 348523029312010
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite13",
+					"sid": 731017461927361,
+					"parameters": {
+						"object": "Sprite62"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "Sprite13",
+					"sid": 921084903677914,
+					"parameters": {
+						"instance-variable": "Boss1Health",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 516009106266456
 		}
 	],
 	"sid": 621062375865399

@@ -131,7 +131,6 @@
 			"Sprite9",
 			"Sprite10",
 			"Sprite11",
-			"Particles",
 			"Particles2",
 			"Particles3",
 			"Sprite12",
@@ -218,7 +217,11 @@
 			"Sprite56",
 			"Sprite57",
 			"Sprite58",
-			"Sprite53"
+			"Sprite53",
+			"Sprite59",
+			"Sprite60",
+			"Sprite61",
+			"Sprite62"
 		],
 		"subfolders": []
 	},

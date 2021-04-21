@@ -397,7 +397,7 @@
 					},
 					"uid": 57,
 					"instanceVariables": {
-						"Boss1Health": 35
+						"Boss1Health": 30
 					},
 					"behaviors": {},
 					"world": {
@@ -446,6 +446,68 @@
 			"name": "UI",
 			"overriden": 0,
 			"instances": [
+				{
+					"type": "Sprite60",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 140,
+					"instanceVariables": {
+						"ShotsFire": 10
+					},
+					"behaviors": {},
+					"world": {
+						"x": 160,
+						"y": 160,
+						"width": 192,
+						"height": 160,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Sprite59",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 139,
+					"instanceVariables": {
+						"ShotsFire": 10
+					},
+					"behaviors": {},
+					"world": {
+						"x": 160,
+						"y": 160,
+						"width": 192,
+						"height": 160,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
 				{
 					"type": "Sprite52",
 					"properties": {
