@@ -573,7 +573,7 @@
 					"properties": {
 						"text": "Text",
 						"enable-bbcode": true,
-						"font": "Arial",
+						"font": "IndieFlower-Regular",
 						"size": 20,
 						"line-height": 0,
 						"bold": false,

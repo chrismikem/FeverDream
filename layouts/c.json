@@ -43,7 +43,7 @@
 					"properties": {
 						"text": "CONGRATS",
 						"enable-bbcode": true,
-						"font": "Arial",
+						"font": "IndieFlower-Regular",
 						"size": 35,
 						"line-height": 0,
 						"bold": false,
@@ -85,7 +85,7 @@
 					"properties": {
 						"text": "Press Space to see the Epilogue",
 						"enable-bbcode": true,
-						"font": "Arial",
+						"font": "IndieFlower-Regular",
 						"size": 12,
 						"line-height": 0,
 						"bold": false,

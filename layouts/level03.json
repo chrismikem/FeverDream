@@ -699,9 +699,9 @@
 					},
 					"behaviors": {},
 					"world": {
-						"x": 704,
+						"x": 784,
 						"y": 64,
-						"width": 192,
+						"width": 352,
 						"height": 160,
 						"originX": 0.5,
 						"originY": 0.5,
