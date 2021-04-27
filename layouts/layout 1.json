@@ -6,35 +6,6 @@
 			"overriden": 0,
 			"instances": [
 				{
-					"type": "Sprite6",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 34,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 486,
-						"y": 269,
-						"width": 961.9999999999999,
-						"height": 545,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
 					"type": "Sprite15",
 					"properties": {
 						"initially-visible": true,
@@ -47,9 +18,9 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 456,
-						"y": 488,
-						"width": 903,
+						"x": 476.5,
+						"y": 475,
+						"width": 944,
 						"height": 104,
 						"originX": 0.5,
 						"originY": 0.5,
@@ -95,6 +66,35 @@
 						"height": 52,
 						"originX": 0,
 						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Sprite68",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 34,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 479.5,
+						"y": 209.5,
+						"width": 957,
+						"height": 417,
+						"originX": 0.5,
+						"originY": 0.5,
 						"color": [
 							1,
 							1,
