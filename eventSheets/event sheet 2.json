@@ -9,7 +9,17 @@
 			"comment": "",
 			"isStatic": false,
 			"isConstant": false,
-			"sid": 115029509273270
+			"sid": 982817872029587
+		},
+		{
+			"eventType": "variable",
+			"name": "Portal2",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 104077121747486
 		},
 		{
 			"eventType": "group",
@@ -486,6 +496,15 @@
 								"comparison": 3,
 								"value": "0"
 							}
+						},
+						{
+							"id": "compare-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 727946914262361,
+							"parameters": {
+								"variable": "Portal2"
+							},
+							"isInverted": true
 						}
 					],
 					"actions": [
@@ -510,6 +529,15 @@
 							"id": "destroy",
 							"objectClass": "Sprite28",
 							"sid": 437212580723100
+						},
+						{
+							"id": "set-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 719251792929995,
+							"parameters": {
+								"variable": "Portal",
+								"value": "true"
+							}
 						}
 					],
 					"sid": 844991944949621

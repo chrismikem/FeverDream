@@ -12,6 +12,16 @@
 			"sid": 911840142154447
 		},
 		{
+			"eventType": "variable",
+			"name": "Portal",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 491749347623347
+		},
+		{
 			"eventType": "group",
 			"disabled": false,
 			"title": "Character",
@@ -485,6 +495,15 @@
 								"comparison": 3,
 								"value": "0"
 							}
+						},
+						{
+							"id": "compare-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 878951910275353,
+							"parameters": {
+								"variable": "Portal"
+							},
+							"isInverted": true
 						}
 					],
 					"actions": [
@@ -498,6 +517,15 @@
 								"x": "832",
 								"y": "256",
 								"create-hierarchy": false
+							}
+						},
+						{
+							"id": "set-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 279034682316810,
+							"parameters": {
+								"variable": "Portal",
+								"value": "true"
 							}
 						}
 					],
