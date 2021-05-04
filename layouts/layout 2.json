@@ -6,78 +6,7 @@
 			"overriden": 0,
 			"instances": [
 				{
-					"type": "Sprite17",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 66,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 480.5,
-						"y": 481,
-						"width": 953,
-						"height": 106.00000000000001,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Text8",
-					"properties": {
-						"text": "that experiments with dreams and the human mind...",
-						"enable-bbcode": true,
-						"font": "IndieFlower-Regular",
-						"size": 12,
-						"line-height": 0,
-						"bold": false,
-						"italic": false,
-						"color": [
-							0.9490196078431372,
-							0.9294117647058824,
-							0.9294117647058824,
-							1
-						],
-						"horizontal-alignment": "left",
-						"vertical-alignment": "top",
-						"wrapping": "word",
-						"initially-visible": true,
-						"origin": "top-left"
-					},
-					"uid": 67,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 38,
-						"y": 444,
-						"width": 487,
-						"height": 30,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Sprite70",
+					"type": "Sprite82",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -89,39 +18,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 210,
-						"y": 230,
-						"width": 250,
-						"height": 250,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Sprite71",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 144,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 477.5,
-						"y": 213,
-						"width": 949,
-						"height": 422,
+						"x": 332,
+						"y": 270.5,
+						"width": 1246,
+						"height": 531,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
