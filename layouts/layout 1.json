@@ -37,7 +37,7 @@
 				{
 					"type": "Text9",
 					"properties": {
-						"text": "The G.O.D (Government of Dreams) are a secret organization....(press space to start)",
+						"text": "The G.O.D (Government of Dreams) are a secret organization....(press space to start automatically)",
 						"enable-bbcode": true,
 						"font": "IndieFlower-Regular",
 						"size": 12,

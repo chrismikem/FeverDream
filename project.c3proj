@@ -241,7 +241,8 @@
 			"Sprite78",
 			"Sprite79",
 			"Sprite80",
-			"Sprite81"
+			"Sprite81",
+			"Sprite82"
 		],
 		"subfolders": []
 	},
@@ -258,10 +259,6 @@
 			"Intro",
 			"Layout 1",
 			"Layout 2",
-			"Layout 3",
-			"Layout 12",
-			"Layout 13",
-			"Layout 4",
 			"Layout 5",
 			"Layout 6",
 			"Layout 14",
