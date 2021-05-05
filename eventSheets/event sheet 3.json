@@ -983,7 +983,7 @@
 						{
 							"id": "spawn-another-object",
 							"objectClass": "Sprite13",
-							"sid": 457852563990703,
+							"sid": 249823666716943,
 							"parameters": {
 								"object": "Sprite7",
 								"layer": "0",
@@ -994,7 +994,7 @@
 						{
 							"id": "spawn-another-object",
 							"objectClass": "Sprite13",
-							"sid": 201000170221040,
+							"sid": 200304558782966,
 							"parameters": {
 								"object": "Sprite61",
 								"layer": "0",
@@ -1005,7 +1005,7 @@
 						{
 							"id": "wait",
 							"objectClass": "System",
-							"sid": 519189581197873,
+							"sid": 883730668744484,
 							"parameters": {
 								"seconds": "1"
 							}
@@ -1013,7 +1013,7 @@
 						{
 							"id": "destroy",
 							"objectClass": "Sprite61",
-							"sid": 317739486264669
+							"sid": 780231631234520
 						},
 						{
 							"id": "destroy",
@@ -1276,6 +1276,23 @@
 						}
 					],
 					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "Sprite13",
+							"sid": 511528910929801,
+							"parameters": {
+								"animation": "\"Death\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 226772086022252,
+							"parameters": {
+								"seconds": "1.0"
+							}
+						},
 						{
 							"id": "destroy",
 							"objectClass": "Sprite13",
