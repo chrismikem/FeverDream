@@ -533,9 +533,9 @@
 						{
 							"id": "set-boolean-eventvar",
 							"objectClass": "System",
-							"sid": 719251792929995,
+							"sid": 917394977173958,
 							"parameters": {
-								"variable": "Portal",
+								"variable": "Portal2",
 								"value": "true"
 							}
 						}
